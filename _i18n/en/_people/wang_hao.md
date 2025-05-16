@@ -22,7 +22,13 @@ We currently have 2-3 openings available. Interested students are welcome to [co
 
 ### Personal Reflection
 
-Having seen mountains and seas, experienced joys and sorrows, all beings pursue their interests.
+Having beheld the mountains and seas,
+
+Traversed the tides of joy and sorrow,
+
+All beings dissolve into emptiness,
+
+Yet the world bustles, ever chasing gain.
 
 ### Current Students
 
