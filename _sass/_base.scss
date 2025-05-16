@@ -31,14 +31,46 @@ table {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
+  border: 2px solid var(--global-divider-color);
 
   td,
   th {
     color: var(--global-text-color);
+    border: 1px solid var(--global-divider-color);
+    padding: 12px 15px;
+    text-align: center;
   }
 
   td {
     font-size: 1rem;
+  }
+
+  th {
+    background-color: var(--global-theme-color);
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.02);
+  }
+
+  tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+
+  td a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: var(--global-hover-color);
+      text-decoration: underline;
+    }
   }
 }
 
@@ -66,13 +98,13 @@ tr:hover {
 }
 
 td a {
-  color: #0366d6;
+  color: #666666;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 td a:hover {
-  color: #024ea4;
+  color: #999999;
   text-decoration: underline;
 }
 
