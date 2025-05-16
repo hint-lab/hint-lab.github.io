@@ -148,19 +148,19 @@ table th {
   letter-spacing: 0.5px;
 }
 table tr:nth-child(even) {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: var(--global-bg-color);
 }
 table tr:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--global-card-bg-color);
   transition: all 0.3s ease;
 }
 table td a {
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 table td a:hover {
-  color: var(--global-hover-color);
+  color: var(--global-theme-color);
   text-decoration: underline;
 }
 
@@ -845,6 +845,31 @@ pre .copy:active, pre .copy:focus, pre .copy:hover {
 pre:active .copy, pre:focus .copy, pre:hover .copy {
   color: var(--global-hover-color);
   opacity: 1;
+}
+
+html[data-theme=dark] table {
+  border-color: var(--global-divider-color);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+html[data-theme=dark] table td,
+html[data-theme=dark] table th {
+  border-color: var(--global-divider-color);
+}
+html[data-theme=dark] table th {
+  background-color: var(--global-theme-color);
+  color: var(--global-bg-color);
+}
+html[data-theme=dark] table tr:nth-child(even) {
+  background-color: var(--global-card-bg-color);
+}
+html[data-theme=dark] table tr:hover {
+  background-color: var(--global-bg-color);
+}
+html[data-theme=dark] table td a {
+  color: var(--global-text-color);
+}
+html[data-theme=dark] table td a:hover {
+  color: var(--global-theme-color);
 }
 
 /*******************************************************************************

@@ -54,21 +54,21 @@ table {
   }
 
   tr:nth-child(even) {
-    background-color: rgba(0, 0, 0, 0.02);
+    background-color: var(--global-bg-color);
   }
 
   tr:hover {
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: var(--global-card-bg-color);
     transition: all 0.3s ease;
   }
 
   td a {
-    color: var(--global-theme-color);
+    color: var(--global-text-color);
     text-decoration: none;
     transition: color 0.3s ease;
 
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-theme-color);
       text-decoration: underline;
     }
   }
@@ -930,5 +930,39 @@ pre {
   &:hover .copy {
     color: var(--global-hover-color);
     opacity: 1;
+  }
+}
+
+// 深色模式特定样式
+html[data-theme="dark"] {
+  table {
+    border-color: var(--global-divider-color);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+    td,
+    th {
+      border-color: var(--global-divider-color);
+    }
+
+    th {
+      background-color: var(--global-theme-color);
+      color: var(--global-bg-color);
+    }
+
+    tr:nth-child(even) {
+      background-color: var(--global-card-bg-color);
+    }
+
+    tr:hover {
+      background-color: var(--global-bg-color);
+    }
+
+    td a {
+      color: var(--global-text-color);
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
   }
 }

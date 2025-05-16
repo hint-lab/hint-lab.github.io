@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://localhost:4000/中文/sitemap.xml
+Sitemap: https://hint-lab.github.io/中文/sitemap.xml
