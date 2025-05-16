@@ -8,6 +8,11 @@ Dr. Wang is currently an Associate Professor (2024-present) and former Lecturer 
 
 Our lab primarily consists of students with NLP backgrounds, and we welcome students with interdisciplinary backgrounds in linguistics, cognitive science, and psychology to join our lab. International students are also welcome to apply.
 
+### Courses
+
+- Artificial Intelligence and Brain Cognition (Spring 2025)
+- [Data Mining and Knowledge Processing (Spring 2025)](https://github.com/hint-lab/data-mining-and-knowledge-processing)
+
 ### Research Directions
 
 - Human-Model Cognitive Collaboration (Master's students, female students preferred)
