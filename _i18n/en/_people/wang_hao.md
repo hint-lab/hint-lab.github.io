@@ -39,22 +39,23 @@ Yet the world bustles, ever chasing gain.
 
 | Name | Year | Undergraduate University | Note | Research Direction |
 |:-------:|:--------:|:-------------:|:--------:|:------------:|
+| [IDLKAID MOHAMMED](/people/simo) | 2024 | Sidi Mohamed Ben Abdellah University | International Student | Medical RAG Active Interaction |
+| [Yang Qi](/people/yang_qi) | 2024 | Dongguan University of Technology | | Multi-Agent Document Understanding |
+| [Liu Maolin](/people/liu_maolin) | 2023 | Shanghai University | | Multi-Agent Medical RAG |
 | [Chen Bin](/people/chen_bin) | 2022 | Shanghai University | Direct Admission | Controllable Text-Image Generation |
 | [Wang Changqing](/people/wang_changqing) | 2022 | China University of Petroleum | | Document Reading Agent |
 | [Wang Qingxuan](/people/wang_qingxuan) | 2022 | Northeast Petroleum University | Direct Admission | Human-Machine Document Reading |
-| [Liu Maolin](/people/liu_maolin) | 2023 | Shanghai University | | Multi-Agent Medical RAG |
-| [Yang Qi](/people/yang_qi) | 2024 | Dongguan University of Technology | | Multi-Agent Document Understanding |
-| [IDLKAID MOHAMMED](/people/simo) | 2024 | Sidi Mohamed Ben Abdellah University | International Student | Medical RAG Active Interaction |
+
 
 ### Alumni
 
 | Name | Year | Undergraduate University | Current Position | Thesis | Note |
 |:-------:|:--------:|:-------------:|:--------:|:------------:|:------------:|
-| Du Siyuan | 2022 | Shanghai University of Engineering Science | SAP, Shanghai | [Master's Thesis](/assets/pdf/thesis/杜思远-基于深度学习的认知语言学转喻识别方法研究.pdf) | |
-| Tao Xi | 2023 | Shanghai University | ByteDance, Shenzhen | [Master's Thesis](/assets/pdf/thesis/陶曦-面向不均衡样本的知识图谱构建与推理方法.pdf) | |
-| Zhang Junwei | 2023 | Zhengzhou University of Light Industry | China Unicom, Shanghai | [Master's Thesis](/assets/pdf/thesis/张俊伟-多元异构数据融合的视觉富文档理解方法研究.pdf) | Transferred in Year 2 |
 | Chen Xiahua | 2024 | Nantong University | ZhongAn Technology, Shanghai | [Master's Thesis](/assets/pdf/thesis/陈夏华-跨模态提示增强的视觉富文档理解方法研究.pdf) | |
 | Li Tang | 2024 | Taiyuan University of Technology | China Telecom, Shanghai | [Master's Thesis](/assets/pdf/thesis/李唐-面向视觉富文档信息抽取任务的知识迁移方法研究.pdf) | |
+| Zhang Junwei | 2023 | Zhengzhou University of Light Industry | China Unicom, Shanghai | [Master's Thesis](/assets/pdf/thesis/张俊伟-多元异构数据融合的视觉富文档理解方法研究.pdf) | Transferred in Year 2 |
+| Tao Xi | 2023 | Shanghai University | ByteDance, Shenzhen | [Master's Thesis](/assets/pdf/thesis/陶曦-面向不均衡样本的知识图谱构建与推理方法.pdf) | |
+| Du Siyuan | 2022 | Shanghai University of Engineering Science | SAP, Shanghai | [Master's Thesis](/assets/pdf/thesis/杜思远-基于深度学习的认知语言学转喻识别方法研究.pdf) | |
 
 
 
