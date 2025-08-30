@@ -1,0 +1,204 @@
+{
+    "brand": "Cogling-AI Lab",
+    "nav": {
+        "home": "主页",
+        "publications": "研究成果",
+        "about": "个人简介",
+        "courses": "主讲课程",
+        "research": "研究方向",
+        "expectations": "对学生的期待",
+        "insights": "一点感悟",
+        "students": "在读研究生",
+        "alumni": "往届毕业生",
+        "contact": "联系"
+    },
+    "hero": {
+        "title": "Cogling-AI Lab 实验室",
+        "subtitle": "人工智能 · 人机协同认知 · 自然语言处理",
+        "ctaLearn": "了解我们",
+        "ctaEmail": "邮件联系"
+    },
+    "about": {
+        "title": "个人简介",
+        "p1": "王昊，工学博士，智能科学与技术系讲师（2019-2024）、副教授（2024～至今），曾获国家留学基金委CSC公派博士生奖学金资助，于2014年和2019年在日本早稻田大学分别获得硕士和博士学位。曾在微软亚洲研究院、东芝全球研发中心和日本NTT公司通讯研究所工作。近五年来，在EMNLP、COLING、CogSci等国际会议和期刊上发表论文30余篇（其中SCI/SSCI/A&HCI三大索引期刊或CCF推荐会议25余篇）。2021年入选上海科委\"扬帆计划项目\"（已结项），2023年获得国家自然科学基金青年项目（人工智能交叉）支持，承担企业合作横向研究5项。作为课题骨干参与国家自然科学基金委重大、面上项目多项目，科技部重点研发计划及社会治理专项项目多项。长期担任ICLR、ICML、NeurIPS、ACL、EMNLP、AAAI等人工智能/自然语言处理领域顶级国际会议和 TKDD、TNNLS、NLE等期刊的PC Member、审稿人。主要研究方向包括：人工智能、人机协同认知、自然语言处理（含医学文档）等。",
+        "p2": "目前实验室主要由NLP背景的同学为主，我们亦欢迎有语言学、认知科学和心理学等交叉学科背景的同学加入实验室，也欢迎留学生报考。"
+    },
+    "profile": {
+        "name": "Hao WANG",
+        "lines": [
+            "Ph.D., Associate Professor",
+            "Department of Machine Intelligence,",
+            "School of Computer Engineering and Science,",
+            "Shanghai University",
+            "Room 1019, CES Building",
+            "No. 99 Shangda Road, Baoshan District,",
+            "Shanghai 200444, P. R. China"
+        ]
+    },
+    "publications": {
+        "title": "研究成果",
+        "list": [
+            {
+                "text": "陶曦 - 面向不均衡样本的知识图谱构建与推理方法研究（硕士论文，2023）",
+                "href": "thesis/陶曦-面向不均衡样本的知识图谱构建与推理方法研究.pdf"
+            },
+            {
+                "text": "张俊伟 - 多元异构数据融合的视觉富文档理解方法研究（硕士论文，2023）",
+                "href": "thesis/张俊伟-多元异构数据融合的视觉富文档理解方法研究.pdf"
+            }
+        ]
+    },
+    "courses": {
+        "title": "主讲课程",
+        "list": [
+            {
+                "text": "人工智能与脑认知（2025春)"
+            },
+            {
+                "text": "数据挖掘与知识处理（2025春）",
+                "href": "https://github.com/hint-lab/data-mining-and-knowledge-processing"
+            }
+        ]
+    },
+    "research": {
+        "title": "研究方向",
+        "bullets": [
+            "人类与大模型认知协同（学硕、女生优先）",
+            "医学RAG深度推理（文档智能体、DeepSearch）"
+        ],
+        "notePrefix": "目前的名额充足（2～3名），欢迎感兴趣的同学",
+        "contactCta": "【点击这里】",
+        "noteSuffix": "联系。"
+    },
+    "expectations": {
+        "title": "对学生的期待",
+        "list": [
+            "积极主动",
+            "要事第一",
+            "以终为始"
+        ]
+    },
+    "insights": {
+        "title": "一点感悟",
+        "quoteLines": [
+            "见过山海，过尽悲欢，",
+            "众生皆空，熙熙利往。"
+        ]
+    },
+    "students": {
+        "title": "在读研究生",
+        "columns": [
+            "姓名",
+            "入学年份",
+            "本科院校",
+            "备注",
+            "研究方向"
+        ],
+        "rows": [
+            [
+                "IDLKAID MOHAMMED",
+                "2024",
+                "Sidi Mohamed Ben Abdellah University",
+                "留学生",
+                "医学RAG主动交互"
+            ],
+            [
+                "杨旗",
+                "2024",
+                "东莞理工学院",
+                "",
+                "多智能文档理解"
+            ],
+            [
+                "刘茂林",
+                "2023",
+                "上海大学",
+                "",
+                "多智能体医学RAG"
+            ]
+        ]
+    },
+    "alumni": {
+        "title": "往届毕业生",
+        "columns": [
+            "姓名",
+            "毕业年份",
+            "本科院校",
+            "工作去向",
+            "毕业论文",
+            "备注"
+        ],
+        "rows": [
+            [
+                "陈斌",
+                "2025",
+                "上海大学",
+                "中国商飞，上海",
+                "硕士论文",
+                "保送"
+            ],
+            [
+                "王常青",
+                "2025",
+                "中国石油大学",
+                "美团，上海",
+                "硕士论文",
+                ""
+            ],
+            [
+                "王庆轩",
+                "2025",
+                "东北石油大学",
+                "中国电信，郑州",
+                "硕士论文",
+                "保送"
+            ],
+            [
+                "李唐",
+                "2024",
+                "太原理工大学",
+                "中国电信，上海",
+                "硕士论文",
+                ""
+            ],
+            [
+                "陈夏华",
+                "2024",
+                "南通大学",
+                "众安科技，上海",
+                "硕士论文",
+                ""
+            ],
+            [
+                "张俊伟",
+                "2023",
+                "郑州轻工业大学",
+                "中国联通，上海",
+                "硕士论文",
+                "研二转入"
+            ],
+            [
+                "陶曦",
+                "2023",
+                "上海大学",
+                "字节跳动，深圳",
+                "硕士论文",
+                ""
+            ],
+            [
+                "杜思远",
+                "2022",
+                "上海工程技术大学",
+                "SAP 思爱普，上海",
+                "硕士论文",
+                ""
+            ]
+        ]
+    },
+    "contact": {
+        "title": "联系",
+        "emailLabel": "EMAIL",
+        "email": "wang-hao@shu.edu.cn"
+    },
+    "footer": "© {year} Cogling-AI Lab. All rights reserved."
+}

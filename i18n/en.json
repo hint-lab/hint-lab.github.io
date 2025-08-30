@@ -1,0 +1,174 @@
+{
+    "brand": "Cogling AI Lab",
+    "nav": {
+        "about": "About",
+        "courses": "Courses",
+        "research": "Research",
+        "expectations": "Expectations",
+        "insights": "Insights",
+        "students": "Students",
+        "alumni": "Alumni",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Cogling AI Lab",
+        "subtitle": "AI · Human-AI Cognition · NLP",
+        "ctaLearn": "Learn More",
+        "ctaEmail": "Email"
+    },
+    "about": {
+        "title": "About",
+        "p1": "Ph.D. in Engineering. Lecturer (2019–2024), Associate Professor (2024–). Funded by CSC for doctoral study, earned M.S. and Ph.D. from Waseda University in 2014 and 2019. Worked at MSRA, Toshiba Global R&D, and NTT Communication Science Labs. 30+ papers in EMNLP, COLING, CogSci, etc., including 25+ in SCI/SSCI/A&HCI indexed journals or CCF-recommended venues. PI of a Shanghai Sci&Tech Commission program (completed) and NSFC Youth project (AI-X); led 5 industry collaborations. Served as PC/Reviewer for ICLR, ICML, NeurIPS, ACL, EMNLP, AAAI, and journals such as TKDD, TNNLS, NLE. Research areas: AI, human–AI collaborative cognition, and NLP (incl. medical documents).",
+        "p2": "We primarily welcome students with NLP backgrounds, and also those from linguistics, cognitive science, and psychology. International students are also welcome."
+    },
+    "courses": {
+        "title": "Courses",
+        "list": [
+            {
+                "text": "AI and Brain Cognition (Spring 2025)"
+            },
+            {
+                "text": "Data Mining and Knowledge Processing (Spring 2025)",
+                "href": "https://github.com/hint-lab/data-mining-and-knowledge-processing"
+            }
+        ]
+    },
+    "research": {
+        "title": "Research",
+        "bullets": [
+            "Human–Large-Model Collaborative Cognition (priority for female M.S. students)",
+            "Medical RAG Deep Reasoning (Document Agents, DeepSearch)"
+        ],
+        "notePrefix": "Open positions (2–3). If interested,",
+        "contactCta": "contact us",
+        "noteSuffix": "."
+    },
+    "expectations": {
+        "title": "Expectations",
+        "list": [
+            "Proactive",
+            "First Things First",
+            "Begin with the End in Mind"
+        ]
+    },
+    "insights": {
+        "title": "Insights",
+        "quoteLines": [
+            "Having seen mountains and seas, and all joys and sorrows,",
+            "all beings are empty; people bustle for their own interests."
+        ]
+    },
+    "students": {
+        "title": "Graduate Students",
+        "columns": [
+            "Name",
+            "Entry Year",
+            "Undergrad",
+            "Note",
+            "Research"
+        ],
+        "rows": [
+            [
+                "IDLKAID MOHAMMED",
+                "2024",
+                "Sidi Mohamed Ben Abdellah University",
+                "International",
+                "Interactive Medical RAG"
+            ],
+            [
+                "Yang Qi",
+                "2024",
+                "Dongguan University of Technology",
+                "",
+                "Multi-Document Understanding"
+            ],
+            [
+                "Liu Maolin",
+                "2023",
+                "Shanghai University",
+                "",
+                "Multi-Agent Medical RAG"
+            ],
+            [
+                "Chen Bin",
+                "2022",
+                "Shanghai University",
+                "Recommended",
+                "Controllable Image-Text Generation"
+            ],
+            [
+                "Wang Changqing",
+                "2022",
+                "China University of Petroleum",
+                "",
+                "Document Reading Agent"
+            ],
+            [
+                "Wang Qingxuan",
+                "2022",
+                "Northeast Petroleum University",
+                "Recommended",
+                "Human-AI Collaborative Reading"
+            ]
+        ]
+    },
+    "alumni": {
+        "title": "Alumni",
+        "columns": [
+            "Name",
+            "Year",
+            "Undergrad",
+            "Destination",
+            "Thesis",
+            "Note"
+        ],
+        "rows": [
+            [
+                "Li Tang",
+                "2024",
+                "Taiyuan University of Technology",
+                "China Telecom, Shanghai",
+                "Master Thesis",
+                ""
+            ],
+            [
+                "Chen Xiahua",
+                "2024",
+                "Nantong University",
+                "Zhongan Tech, Shanghai",
+                "Master Thesis",
+                ""
+            ],
+            [
+                "Zhang Junwei",
+                "2023",
+                "Zhengzhou University of Light Industry",
+                "China Unicom, Shanghai",
+                "Master Thesis",
+                "Transferred in Year 2"
+            ],
+            [
+                "Tao Xi",
+                "2023",
+                "Shanghai University",
+                "ByteDance, Shenzhen",
+                "Master Thesis",
+                ""
+            ],
+            [
+                "Du Siyuan",
+                "2022",
+                "Shanghai University of Engineering Science",
+                "SAP, Shanghai",
+                "Master Thesis",
+                ""
+            ]
+        ]
+    },
+    "contact": {
+        "title": "Contact",
+        "emailLabel": "EMAIL",
+        "email": "wang-hao@shu.edu.cn"
+    },
+    "footer": "© {year} Cogling-AI Lab. All rights reserved."
+}
