@@ -35,19 +35,6 @@
             "Shanghai 200444, P. R. China"
         ]
     },
-    "publications": {
-        "title": "Publications",
-        "list": [
-            {
-                "text": "Tao Xi - Knowledge Graph Construction and Reasoning for Imbalanced Samples (M.Sc. Thesis, 2023)",
-                "href": "thesis/taoxi.pdf"
-            },
-            {
-                "text": "Zhang Junwei - Visual Document Understanding with Multi-Modal Heterogeneous Data Fusion (M.Sc. Thesis, 2023)",
-                "href": "thesis/zhangjunwei.pdf"
-            }
-        ]
-    },
     "courses": {
         "title": "Courses",
         "list": [
