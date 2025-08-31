@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import LangSwitch from './components/LangSwitch';
 
 export const metadata: Metadata = {
   title: 'CogNLP Lab | 实验室主页',
