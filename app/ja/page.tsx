@@ -2,6 +2,8 @@ import LangSwitch from '../components/LangSwitch';
 import Link from 'next/link';
 import SideToc from '../components/SideToc';
 import { getDict } from '../lib/i18n';
+import { withBase } from '../lib/paths';
+import Image from 'next/image';
 
 export default function HomePageJA() {
     const t = getDict('ja');
@@ -13,9 +15,10 @@ export default function HomePageJA() {
                     <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
                         <nav className="nav">
                             <a href="#home">{t.nav.home}</a>
-                            <Link href="/ja/publication">{t.nav.publications}</Link>
                             <a href="#research">{t.nav.research}</a>
-                            <a href="#courses">{t.nav.courses}</a>
+                            <Link href="/ja/publication">{t.nav.publications}</Link>
+                            <a href="#students">{t.nav.students}</a>
+                            <a href="#contact">{t.nav.contact}</a>
                         </nav>
                         <LangSwitch />
                     </div>
@@ -40,7 +43,7 @@ export default function HomePageJA() {
 
                     <div className="about-grid ">
                         <div className="about-photo">
-                            <img src="/wang_hao.jpeg" alt="Hao WANG" />
+                            <Image src="/wang_hao.jpeg" alt="Hao WANG" width={300} height={300} style={{ width: '100%', height: 'auto' }} />
                         </div>
                         <div>
                             {t.profile && t.profile.name && Array.isArray(t.profile.lines) && (
@@ -150,7 +153,7 @@ export default function HomePageJA() {
                                         {r.map((cell: any, cidx: number) => (
                                             <td key={cidx}>
                                                 {cell && typeof cell === 'object' && 'href' in cell ? (
-                                                    <a href={cell.href} target="_blank" rel="noopener noreferrer">{cell.text}</a>
+                                                    <a href={withBase(cell.href)} target="_blank" rel="noopener noreferrer">{cell.text}</a>
                                                 ) : (
                                                     cell
                                                 )}
@@ -181,8 +184,8 @@ export default function HomePageJA() {
 
             <SideToc items={[
                 { id: 'home', label: t.nav.home },
-                { id: 'courses', label: t.nav.courses },
                 { id: 'research', label: t.nav.research },
+                { id: 'courses', label: t.nav.courses },
                 { id: 'expectations', label: t.nav.expectations },
                 { id: 'insights', label: t.nav.insights },
                 { id: 'students', label: t.nav.students },

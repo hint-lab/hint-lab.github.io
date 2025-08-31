@@ -47,6 +47,20 @@
     "url": "https://escholarship.org/content/qt6mx1z1r4/qt6mx1z1r4.pdf"
   },
   {
+    "id": "zhang2025infodesignlm",
+    "type": "inproceedings",
+    "title": "InfoDesignLM: An LLM for Interactive and Controllable Infographic Designing Through Text",
+    "authors": [
+      "Zhang, Xilin",
+      "Wang, Hao",
+      "Dai, Jianbiao",
+      "Zhu, Pinpin"
+    ],
+    "abbr": "ICDAR",
+    "booktitle": "Proceedings of the International Conference on Document Analysis and Recognition (ICDAR, CCF-C)",
+    "year": 2025
+  },
+  {
     "id": "wang2025hidreader",
     "type": "inproceedings",
     "title": "HiDReader: Human-Inspired Document Reading Agent via Reinforcement Learning",
