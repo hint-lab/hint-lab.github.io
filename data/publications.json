@@ -1,0 +1,426 @@
+[
+  {
+    "id": "wang2025reading",
+    "type": "article",
+    "title": "Reading between the lines: How eye-tracking data can inform reading strategies for large language models",
+    "authors": [
+      "Wang, Hao*",
+      "Wang, Qingxuan",
+      "Zhang, Huiran",
+      "Zhu, Pinpin"
+    ],
+    "abbr": "ICIP",
+    "booktitle": "In Proceedings of 2025 IEEE International Conference on Image Processing (ICIP, CCF-C)",
+    "year": 2025
+  },
+  {
+    "id": "chen2025fc-render",
+    "type": "article",
+    "title": "FC-RENDER: Adaptive Font- and Color-Aware Text Ddiffusion Model",
+    "authors": [
+      "Chen, Bin",
+      "Wang, Hao*",
+      "Zhang, Xilin",
+      "Zhu, Pinpin"
+    ],
+    "abbr": "ICIP",
+    "booktitle": "In Proceedings of 2025 IEEE International Conference on Image Processing (ICIP, CCF-C)",
+    "year": 2025,
+    "url": ""
+  },
+  {
+    "id": "wang2025cogscinsights",
+    "type": "article",
+    "title": "Cognitive Insights into Document Comprehension: The Role of Reading Order and Visual Attention in Human and Large Language Models",
+    "authors": [
+      "Wang, Qingxuan",
+      "Wang, Hao*",
+      "Zhang, Huiran",
+      "Chu, Chenhui",
+      "Wang, Rui",
+      "Zhu, Pinpin"
+    ],
+    "abbr": "CogSci",
+    "pages": "3242--3249",
+    "booktitle": "In Proceedings of the 47th Annual Meeting of the Cognitive Science Society (CogSci, CCF-B)",
+    "year": 2025,
+    "url": "https://escholarship.org/content/qt6mx1z1r4/qt6mx1z1r4.pdf"
+  },
+  {
+    "id": "wang2025hidreader",
+    "type": "inproceedings",
+    "title": "HiDReader: Human-Inspired Document Reading Agent via Reinforcement Learning",
+    "authors": [
+      "Wang, Changqing",
+      "Wang, Hao*",
+      "Zhu, Pinpin",
+      "Zhang, Huiran"
+    ],
+    "abbr": "ICDAR",
+    "booktitle": "Proceedings of the International Conference on Document Analysis and Recognition (ICDAR, CCF-C)",
+    "year": 2025
+  },
+  {
+    "id": "WANG2025125407",
+    "type": "article",
+    "title": "Exploring multi-granularity contextual semantics for fully inductive knowledge graph completion",
+    "authors": [
+      "Jingchao Wang",
+      "Weimin Li",
+      "Alex Munyole Luvembe",
+      "Xiao Yu",
+      "Xinyi Zhang",
+      "Fangyu Liu",
+      "Fangfang Liu",
+      "Hao Wang",
+      "Zhenhai Wang",
+      "Qun Jin"
+    ],
+    "abbr": "ESWA",
+    "journal": "Expert Systems with Applications (SCI Q1/CCF-C)",
+    "volume": "260",
+    "pages": "125407",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.eswa.2024.125407",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0957417424022747"
+  },
+  {
+    "id": "DBLP:journals/concurrency/QinWL24",
+    "type": "article",
+    "title": "Open-domain event schema induction via weighted attentive hypergraph neural network",
+    "authors": [
+      "Wei Qin",
+      "Hao Wang",
+      "Xiangfeng Luo"
+    ],
+    "abbr": "CCPE",
+    "journal": "Concurr. Comput. Pract. Exp. (SCI/CCF-C)",
+    "volume": "36",
+    "number": "12",
+    "year": 2024
+  },
+  {
+    "id": "wang-etal-2024-towards-human-like",
+    "type": "inproceedings",
+    "title": "Towards Human-Like Machine Comprehension: Few-Shot Relational Learning in Visually-Rich Documents",
+    "authors": [
+      "Wang, Hao",
+      "Li, Tang",
+      "Chu, Chenhui",
+      "Wang, Rui",
+      "Zhu, Pinpin"
+    ],
+    "abbr": "COLING",
+    "booktitle": "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024, CCF-B)",
+    "year": 2024,
+    "url": "https://aclanthology.org/2024.lrec-main.1439",
+    "pages": "16557--16569"
+  },
+  {
+    "id": "DBLP:journals/ijseke/GuLW23",
+    "type": "article",
+    "title": "Enhancing Answer Selection via Ad-Hoc Knowledge Extraction from Unstructured Web Texts",
+    "authors": [
+      "Shengwei Gu",
+      "Xiangfeng Luo",
+      "Hao Wang"
+    ],
+    "abbr": "JSEKE",
+    "journal": "Int. J. Softw. Eng. Knowl. Eng. (SCI/CCF-C)",
+    "volume": "33",
+    "number": "6",
+    "pages": "933--951",
+    "year": 2023
+  },
+  {
+    "id": "wang_emnlp2023a",
+    "type": "inproceedings",
+    "title": "Vision-Enhanced Semantic Entity Recognition in Document Images via Visually-Asymmetric Consistency Learning",
+    "authors": [
+      "Wang, Hao",
+      "Chen, Xiahua",
+      "Wang, Rui",
+      "Chu, Chenhui"
+    ],
+    "booktitle": "The 2023 Conference on Empirical Methods in Natural Language Processing, Main (CAAI-A/CCF-B)",
+    "abbr": "EMNLP",
+    "year": 2023,
+    "pages": "no.page",
+    "html": "https://arxiv.org/pdf/2310.14785.pdf"
+  },
+  {
+    "id": "wang_emnlp2023b",
+    "type": "inproceedings",
+    "title": "DocTrack: A Visually-Rich Document Dataset Really Aligned with Human Eye Movement for Machine Reading",
+    "authors": [
+      "Wang, Hao",
+      "Wang, Qingxuan",
+      "Li, Yue",
+      "Wang, Rui",
+      "Chu, Chenhui",
+      "Wang, Rui"
+    ],
+    "booktitle": "The 2023 Conference on Empirical Methods in Natural Language Processing, Findings (CAAI-A/CCF-B)",
+    "year": 2023,
+    "abbr": "EMNLP",
+    "pages": "no.page",
+    "html": "https://arxiv.org/pdf/2310.14802.pdf"
+  },
+  {
+    "id": "10027978",
+    "type": "inproceedings",
+    "title": "Few-Shot Link Prediction using Variational Heterogeneous Attention Networks",
+    "authors": [
+      "Tao, Xi",
+      "Wang, Hao",
+      "Luo, Xiangfeng",
+      "Zhu, Pinpin"
+    ],
+    "booktitle": "The 35th International Conference on Software Engineering and Knowledge Engineering (CCF-C)",
+    "year": 2023,
+    "abbr": "SEKE",
+    "html": "http://ksiresearchorg.ipage.com/seke/Proceedings/seke/SEKE2023_Proceedings.pdf",
+    "pages": "660-665",
+    "doi": "10.1109/Radar53847.2021.10027978"
+  },
+  {
+    "id": "Su2023AnEN",
+    "type": "article",
+    "title": "An end-to-end neural framework using coarse-to-fine-grained attention for overlapping relational triple extraction",
+    "authors": [
+      "Su, H.",
+      "H. Wang",
+      "X. Luo",
+      "S. Xie"
+    ],
+    "abbr": "NLE",
+    "journal": "Natural Language Engineering (SCI/A&HCI/SSCI Q1)",
+    "year": 2023
+  },
+  {
+    "id": "Wei2022JointSE",
+    "type": "article",
+    "title": "Joint semantic embedding with structural knowledge and entity description for knowledge representation learning",
+    "authors": [
+      "Wei, X.",
+      "Zhang, Y.",
+      "Wang, H."
+    ],
+    "abbr": "NCAA",
+    "journal": "Neural Computing and Applications (SCI Q2/CCF-C)",
+    "year": 2022,
+    "volume": "35",
+    "pages": "3883 - 3902"
+  },
+  {
+    "id": "Wang2022AnES",
+    "type": "article",
+    "title": "An empirical study of incorporating syntactic constraints into BERT-based location metonymy resolution",
+    "authors": [
+      "H. Wang",
+      "S. Du",
+      "X. Zheng",
+      "L. Meng"
+    ],
+    "abbr": "NLE",
+    "journal": "Natural Language Engineering (SCI/A&HCI/SSCI Q1)",
+    "year": 2022
+  },
+  {
+    "id": "Zhang2022DualVIEDG",
+    "type": "inproceedings",
+    "title": "Dual-VIE: dual-level graph attention network for visual information extraction",
+    "authors": [
+      "J. Zhang",
+      "H. Wang",
+      "X. Luo"
+    ],
+    "abbr": "PRICAI",
+    "booktitle": "The 19th Pacific Rim International Conference on Artificial Intelligence (CCF-C)",
+    "year": 2022
+  },
+  {
+    "id": "Jiang2021MIFASMH",
+    "type": "article",
+    "title": "MIFAS: multi‐source heterogeneous information fusion with adaptive importance sampling for link prediction",
+    "authors": [
+      "T. Jiang",
+      "H. Wang",
+      "X. Luo",
+      "S. Xie",
+      "J. Wang"
+    ],
+    "abbr": "ES",
+    "journal": "Expert Systems (SCI/CCF-C)",
+    "year": 2021,
+    "volume": "39"
+  },
+  {
+    "id": "Wang2021BackTP",
+    "type": "inproceedings",
+    "title": "Back to prior knowledge: joint event causality extraction via convolutional semantic infusion",
+    "authors": [
+      "Z. Wang",
+      "H. Wang",
+      "X. Luo",
+      "J. Gao"
+    ],
+    "abbr": "PAKDD",
+    "booktitle": "Pacific-Asia Conference on Knowledge Discovery and Data Mining (CCF-C)",
+    "year": 2021
+  },
+  {
+    "id": "Gao2021CausalEE",
+    "type": "article",
+    "title": "Causal event extraction using iterated dilated convolutions with semantic convolutional filters",
+    "authors": [
+      "J. Gao",
+      "X. Luo",
+      "H. Wang",
+      "Z. Wang"
+    ],
+    "abbr": "ICTAI",
+    "journal": "The 33rd IEEE International Conference on Tools with Artificial Intelligence (CCF-C)",
+    "year": 2021,
+    "pages": "619-623"
+  },
+  {
+    "id": "Gao2021ChineseCE",
+    "type": "article",
+    "title": "Chinese causal event extraction using causality‐associated graph neural network",
+    "authors": [
+      "J. Gao",
+      "X. Luo",
+      "H. Wang"
+    ],
+    "abbr": "CCPE",
+    "journal": "Concurrency and Computation: Practice and Experience (SCI/CCF-C)",
+    "year": 2021,
+    "volume": "34"
+  },
+  {
+    "id": "10.1145/3402885",
+    "type": "article",
+    "title": "An extensible framework of leveraging syntactic skeleton for semantic relation classification",
+    "authors": [
+      "Wang, H.",
+      "Tao, Q.",
+      "Du, S.",
+      "Luo, X."
+    ],
+    "abbr": "TALLIP",
+    "year": 2020,
+    "volume": "19",
+    "number": "6",
+    "journal": "ACM Trans. Asian Low-Resour. Lang. Inf. Process. (SCI/CCF-C)"
+  },
+  {
+    "id": "Gao2020AnUF",
+    "type": "article",
+    "title": "An uncertain future: Predicting events using conditional event evolutionary graph",
+    "authors": [
+      "J. Gao",
+      "X. Luo",
+      "H. Wang"
+    ],
+    "abbr": "CCPE",
+    "journal": "Concurrency and Computation: Practice and Experience (SCI)",
+    "year": 2020,
+    "volume": "33"
+  },
+  {
+    "id": "Gu2020ImprovingAS",
+    "type": "article",
+    "title": "Improving answer selection with global features",
+    "authors": [
+      "S. Gu",
+      "X. Luo",
+      "H. Wang",
+      "J. Huang",
+      "Q. Wei",
+      "S. Huang"
+    ],
+    "abbr": "ES",
+    "journal": "Expert Systems (SCI Q2/CCF-C)",
+    "year": 2020,
+    "volume": "38"
+  },
+  {
+    "id": "Pei2020OpenET",
+    "type": "inproceedings",
+    "title": "Open Event Trigger Recognition Using Distant Supervision with Hierarchical Self-attentive Neural Network",
+    "authors": [
+      "X. Pei",
+      "H. Wang",
+      "X. Luo",
+      "J. Gao"
+    ],
+    "abbr": "ICONIP",
+    "booktitle": "International Conference on Neural Information Processing (CCF-C)",
+    "year": 2020
+  },
+  {
+    "id": "Huang2020ImprovingTR",
+    "type": "article",
+    "title": "Improving taxonomic relation learning via incorporating relation descriptions into word embeddings",
+    "authors": [
+      "S. Huang",
+      "X. Luo",
+      "J. Huang",
+      "H. Wang",
+      "S. Gu",
+      "Y. Guo"
+    ],
+    "abbr": "CCPE",
+    "journal": "Concurrency and Computation: Practice and Experience (SCI)",
+    "year": 2020,
+    "volume": "32"
+  },
+  {
+    "id": "Gu2020AbstractCI",
+    "type": "article",
+    "title": "Abstract concept instantiation with context relevance measurement",
+    "authors": [
+      "Shengwei Gu",
+      "X. Luo",
+      "H. Wang",
+      "Jing Huang",
+      "Subin Huang"
+    ],
+    "abbr": "JWE",
+    "journal": "Journal of Web Engineering (SCI)",
+    "year": 2020,
+    "volume": "19",
+    "pages": "575-602"
+  },
+  {
+    "id": "Tao2019EnhancingRE",
+    "type": "article",
+    "title": "Enhancing relation extraction using syntactic indicators and sentential contexts",
+    "authors": [
+      "Q. Tao",
+      "X. Luo",
+      "H. Wang"
+    ],
+    "abbr": "ICTAI",
+    "journal": "The 31st IEEE International Conference on Tools with Artificial Intelligence (CCF-C)",
+    "year": 2019,
+    "pages": "1574-1580"
+  },
+  {
+    "id": "Zhou2019Multitask",
+    "type": "inproceedings",
+    "title": "Multi-task learning for relation extraction",
+    "authors": [
+      "K. Zhou",
+      "X. Luo",
+      "H. Wang",
+      "R. Xu"
+    ],
+    "abbr": "ICTAI",
+    "booktitle": "The 31st IEEE International Conference on Tools with Artificial Intelligence (CCF-C)",
+    "year": 2019,
+    "pages": "1480-1487",
+    "doi": "10.1109/ICTAI.2019.00210"
+  }
+]

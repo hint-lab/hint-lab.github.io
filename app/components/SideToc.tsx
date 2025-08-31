@@ -8,6 +8,9 @@ export default function SideToc({ items }: { items: TocItem[] }) {
     const [active, setActive] = useState<string | null>(null);
 
     useEffect(() => {
+        if (!active && items.length > 0) {
+            setActive(items[0].id);
+        }
         const observers: IntersectionObserver[] = [];
         items.forEach(({ id }) => {
             const el = document.getElementById(id);
@@ -24,7 +27,7 @@ export default function SideToc({ items }: { items: TocItem[] }) {
             observers.push(ob);
         });
         return () => observers.forEach(o => o.disconnect());
-    }, [items]);
+    }, [items, active]);
 
     return (
         <nav className="side-toc" aria-label="Section Navigation">

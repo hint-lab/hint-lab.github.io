@@ -13,7 +13,7 @@ export default function HomePageEN() {
                     <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
                         <nav className="nav">
                             <a href="#home">{t.nav.home}</a>
-                            <a href="#publications">{t.nav.publications}</a>
+                            <Link href="/en/publication">{t.nav.publications}</Link>
                             <a href="#research">{t.nav.research}</a>
                             <a href="#courses">{t.nav.courses}</a>
                         </nav>
@@ -30,31 +30,33 @@ export default function HomePageEN() {
                         <a className="btn btn-primary" href="#about">{t.hero.ctaLearn}</a>
                         <a className="btn btn-outline" href={`mailto:${t.contact.email}`}>{t.hero.ctaEmail}</a>
                     </div>
-                    <div className="profile-card">
-                        <h2>{t.profile.name}</h2>
-                        <div className="lines">
-                            {t.profile.lines.map((line: string, idx: number) => (<div key={idx}>{line}</div>))}
-                        </div>
-                    </div>
+
                 </div>
             </section>
 
-            <section id="publications" className="section">
-                <div className="container">
-                    <h2 className="section-title">{t.publications.title}</h2>
-                    <ul className="list">
-                        {t.publications.list.map((p: any, idx: number) => (
-                            <li key={idx}>
-                                {p.href ? (<a href={p.href} target="_blank" rel="noopener noreferrer">{p.text}</a>) : p.text}
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-            </section>
+            {/* Publications moved to /en/publication */}
 
             <section id="about" className="section">
                 <div className="container">
                     <h2 className="section-title">{t.about.title}</h2>
+                    <div className="about-grid">
+                        <div className="about-photo">
+                            <img src="/wang_hao.jpeg" alt="Hao WANG" />
+                        </div>
+                        <div>
+                            {t.profile && t.profile.name && Array.isArray(t.profile.lines) && (
+                                <div className="profile-card">
+                                    <h2>{t.profile.name}</h2>
+                                    <div className="lines">
+                                        {t.profile.lines.map((line: string, idx: number) => (<div key={idx}>{line}</div>))}
+                                    </div>
+                                    <div className="contact-email">
+                                        <a href={`mailto:${t.contact.email}`}>{t.contact.email}</a>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    </div>
                     <p>{t.about.p1}</p>
                     <p>{t.about.p2}</p>
                 </div>
@@ -145,7 +147,15 @@ export default function HomePageEN() {
                             <tbody>
                                 {t.alumni.rows.map((r, idx) => (
                                     <tr key={idx}>
-                                        {r.map((cell, cidx) => (<td key={cidx}>{cell}</td>))}
+                                        {r.map((cell: any, cidx: number) => (
+                                            <td key={cidx}>
+                                                {cell && typeof cell === 'object' && 'href' in cell ? (
+                                                    <a href={cell.href} target="_blank" rel="noopener noreferrer">{cell.text}</a>
+                                                ) : (
+                                                    cell
+                                                )}
+                                            </td>
+                                        ))}
                                     </tr>
                                 ))}
                             </tbody>
@@ -171,9 +181,13 @@ export default function HomePageEN() {
 
             <SideToc items={[
                 { id: 'home', label: t.nav.home },
-                { id: 'publications', label: t.nav.publications },
+                { id: 'courses', label: t.nav.courses },
                 { id: 'research', label: t.nav.research },
-                { id: 'courses', label: t.nav.courses }
+                { id: 'expectations', label: t.nav.expectations },
+                { id: 'insights', label: t.nav.insights },
+                { id: 'students', label: t.nav.students },
+                { id: 'alumni', label: t.nav.alumni },
+                { id: 'contact', label: t.nav.contact }
             ]} />
         </main>
     );

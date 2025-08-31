@@ -1,5 +1,6 @@
 import LangSwitch from '../components/LangSwitch';
 import Link from 'next/link';
+import SideToc from '../components/SideToc';
 import { getDict } from '../lib/i18n';
 
 export default function HomePageJA() {
@@ -11,21 +12,17 @@ export default function HomePageJA() {
                     <div className="brand"><Link href="/">{t.brand}</Link></div>
                     <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
                         <nav className="nav">
-                            <a href="#about">{t.nav.about}</a>
-                            <a href="#courses">{t.nav.courses}</a>
+                            <a href="#home">{t.nav.home}</a>
+                            <Link href="/ja/publication">{t.nav.publications}</Link>
                             <a href="#research">{t.nav.research}</a>
-                            <a href="#expectations">{t.nav.expectations}</a>
-                            <a href="#insights">{t.nav.insights}</a>
-                            <a href="#students">{t.nav.students}</a>
-                            <a href="#alumni">{t.nav.alumni}</a>
-                            <a href="#contact">{t.nav.contact}</a>
+                            <a href="#courses">{t.nav.courses}</a>
                         </nav>
                         <LangSwitch />
                     </div>
                 </div>
             </header>
 
-            <section className="hero">
+            <section id="home" className="hero">
                 <div className="container">
                     <h1 className="title">{t.hero.title}</h1>
                     <p className="subtitle">{t.hero.subtitle}</p>
@@ -36,8 +33,28 @@ export default function HomePageJA() {
                 </div>
             </section>
 
+            {/* Publications moved to /ja/publication */}
+
             <section id="about" className="section">
                 <div className="container">
+
+                    <div className="about-grid ">
+                        <div className="about-photo">
+                            <img src="/wang_hao.jpeg" alt="Hao WANG" />
+                        </div>
+                        <div>
+                            {t.profile && t.profile.name && Array.isArray(t.profile.lines) && (
+                                <div className="profile-card">
+                                    <div className="lines">
+                                        {t.profile.lines.map((line: string, idx: number) => (<div key={idx}>{line}</div>))}
+                                    </div>
+                                    <div className="contact-email">
+                                        <a href={`mailto:${t.contact.email}`}>{t.contact.email}</a>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    </div>
                     <h2 className="section-title">{t.about.title}</h2>
                     <p>{t.about.p1}</p>
                     <p>{t.about.p2}</p>
@@ -130,7 +147,15 @@ export default function HomePageJA() {
                             <tbody>
                                 {t.alumni.rows.map((r, idx) => (
                                     <tr key={idx}>
-                                        {r.map((cell, cidx) => (<td key={cidx}>{cell}</td>))}
+                                        {r.map((cell: any, cidx: number) => (
+                                            <td key={cidx}>
+                                                {cell && typeof cell === 'object' && 'href' in cell ? (
+                                                    <a href={cell.href} target="_blank" rel="noopener noreferrer">{cell.text}</a>
+                                                ) : (
+                                                    cell
+                                                )}
+                                            </td>
+                                        ))}
                                     </tr>
                                 ))}
                             </tbody>
@@ -153,6 +178,17 @@ export default function HomePageJA() {
                     <p>{t.footer.replace('{year}', String(new Date().getFullYear()))}</p>
                 </div>
             </footer>
+
+            <SideToc items={[
+                { id: 'home', label: t.nav.home },
+                { id: 'courses', label: t.nav.courses },
+                { id: 'research', label: t.nav.research },
+                { id: 'expectations', label: t.nav.expectations },
+                { id: 'insights', label: t.nav.insights },
+                { id: 'students', label: t.nav.students },
+                { id: 'alumni', label: t.nav.alumni },
+                { id: 'contact', label: t.nav.contact }
+            ]} />
         </main>
     );
 }

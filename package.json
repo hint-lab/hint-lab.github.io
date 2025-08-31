@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next build",
+    "prebuild": "echo skip-bib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

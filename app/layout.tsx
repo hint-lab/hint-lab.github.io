@@ -3,7 +3,7 @@ import './globals.css';
 import LangSwitch from './components/LangSwitch';
 
 export const metadata: Metadata = {
-  title: 'Cogling-AI Lab | 实验室主页',
+  title: 'CogNLP Lab | 实验室主页',
   description: '人工智能、人机协同认知、自然语言处理实验室主页',
   icons: [{ rel: 'icon', url: 'favicon.svg' }],
   metadataBase: new URL('https://hint-lab.github.io/people/wang-h')

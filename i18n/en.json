@@ -1,6 +1,8 @@
 {
-    "brand": "Cogling AI Lab",
+    "brand": "CogNLP Lab",
     "nav": {
+        "home": "Home",
+        "publications": "Publications",
         "about": "About",
         "courses": "Courses",
         "research": "Research",
@@ -11,7 +13,7 @@
         "contact": "Contact"
     },
     "hero": {
-        "title": "Cogling AI Lab",
+        "title": "CogNLP Lab",
         "subtitle": "AI · Human-AI Cognition · NLP",
         "ctaLearn": "Learn More",
         "ctaEmail": "Email"
@@ -20,6 +22,31 @@
         "title": "About",
         "p1": "Ph.D. in Engineering. Lecturer (2019–2024), Associate Professor (2024–). Funded by CSC for doctoral study, earned M.S. and Ph.D. from Waseda University in 2014 and 2019. Worked at MSRA, Toshiba Global R&D, and NTT Communication Science Labs. 30+ papers in EMNLP, COLING, CogSci, etc., including 25+ in SCI/SSCI/A&HCI indexed journals or CCF-recommended venues. PI of a Shanghai Sci&Tech Commission program (completed) and NSFC Youth project (AI-X); led 5 industry collaborations. Served as PC/Reviewer for ICLR, ICML, NeurIPS, ACL, EMNLP, AAAI, and journals such as TKDD, TNNLS, NLE. Research areas: AI, human–AI collaborative cognition, and NLP (incl. medical documents).",
         "p2": "We primarily welcome students with NLP backgrounds, and also those from linguistics, cognitive science, and psychology. International students are also welcome."
+    },
+    "profile": {
+        "name": "Hao WANG",
+        "lines": [
+            "Ph.D., Associate Professor",
+            "Department of Machine Intelligence,",
+            "School of Computer Engineering and Science,",
+            "Shanghai University",
+            "Room 1019, CES Building",
+            "No. 99 Shangda Road, Baoshan District,",
+            "Shanghai 200444, P. R. China"
+        ]
+    },
+    "publications": {
+        "title": "Publications",
+        "list": [
+            {
+                "text": "Tao Xi - Knowledge Graph Construction and Reasoning for Imbalanced Samples (M.Sc. Thesis, 2023)",
+                "href": "thesis/taoxi.pdf"
+            },
+            {
+                "text": "Zhang Junwei - Visual Document Understanding with Multi-Modal Heterogeneous Data Fusion (M.Sc. Thesis, 2023)",
+                "href": "thesis/zhangjunwei.pdf"
+            }
+        ]
     },
     "courses": {
         "title": "Courses",
@@ -88,27 +115,6 @@
                 "Shanghai University",
                 "",
                 "Multi-Agent Medical RAG"
-            ],
-            [
-                "Chen Bin",
-                "2022",
-                "Shanghai University",
-                "Recommended",
-                "Controllable Image-Text Generation"
-            ],
-            [
-                "Wang Changqing",
-                "2022",
-                "China University of Petroleum",
-                "",
-                "Document Reading Agent"
-            ],
-            [
-                "Wang Qingxuan",
-                "2022",
-                "Northeast Petroleum University",
-                "Recommended",
-                "Human-AI Collaborative Reading"
             ]
         ]
     },
@@ -124,11 +130,47 @@
         ],
         "rows": [
             [
+                "Chen Bin",
+                "2025",
+                "Shanghai University",
+                "COMAC, Shanghai",
+                {
+                    "text": "Master Thesis",
+                    "href": "thesis/陈斌-硕士论文.pdf"
+                },
+                "Recommended"
+            ],
+            [
+                "Wang Changqing",
+                "2025",
+                "China University of Petroleum",
+                "Meituan, Shanghai",
+                {
+                    "text": "Master Thesis",
+                    "href": "thesis/王常青-硕士论文.pdf"
+                },
+                ""
+            ],
+            [
+                "Wang Qingxuan",
+                "2025",
+                "Northeast Petroleum University",
+                "China Telecom, Zhengzhou",
+                {
+                    "text": "Master Thesis",
+                    "href": "thesis/王庆轩-硕士论文.pdf"
+                },
+                "Recommended"
+            ],
+            [
                 "Li Tang",
                 "2024",
                 "Taiyuan University of Technology",
                 "China Telecom, Shanghai",
-                "Master Thesis",
+                {
+                    "text": "Master Thesis",
+                    "href": "thesis/李唐-面向视觉富文档信息抽取任务的知识迁移方法研究.pdf"
+                },
                 ""
             ],
             [
@@ -136,7 +178,10 @@
                 "2024",
                 "Nantong University",
                 "Zhongan Tech, Shanghai",
-                "Master Thesis",
+                {
+                    "text": "Master Thesis",
+                    "href": "thesis/陈夏华-跨模态提示增强的视觉富文档理解方法研究.pdf"
+                },
                 ""
             ],
             [
@@ -144,7 +189,10 @@
                 "2023",
                 "Zhengzhou University of Light Industry",
                 "China Unicom, Shanghai",
-                "Master Thesis",
+                {
+                    "text": "Master Thesis",
+                    "href": "thesis/张俊伟-多元异构数据融合的视觉富文档理解方法研究.pdf"
+                },
                 "Transferred in Year 2"
             ],
             [
@@ -152,7 +200,10 @@
                 "2023",
                 "Shanghai University",
                 "ByteDance, Shenzhen",
-                "Master Thesis",
+                {
+                    "text": "Master Thesis",
+                    "href": "thesis/陶曦-面向不均衡样本的知识图谱构建与推理方法研究.pdf"
+                },
                 ""
             ],
             [
@@ -160,7 +211,10 @@
                 "2022",
                 "Shanghai University of Engineering Science",
                 "SAP, Shanghai",
-                "Master Thesis",
+                {
+                    "text": "Master Thesis",
+                    "href": "thesis/杜思远-基于深度学习的认知语言学转喻识别方法研究.pdf"
+                },
                 ""
             ]
         ]
@@ -170,5 +224,5 @@
         "emailLabel": "EMAIL",
         "email": "wang-hao@shu.edu.cn"
     },
-    "footer": "© {year} Cogling-AI Lab. All rights reserved."
+    "footer": "© {year} CogNLP Lab. All rights reserved."
 }
