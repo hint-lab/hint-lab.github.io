@@ -38,7 +38,7 @@ export default function LangSwitch() {
         <div className="lang-dropdown">
 
             <button ref={btnRef} className="btn btn-outline btn-inline" aria-haspopup="menu" aria-expanded={open} onClick={() => setOpen(v => !v)}>
-                <Image src="/language-svgrepo-com.svg" alt="CogNLP Lab" width={20} height={20} />
+                <Image src="/people/wang_hao/language-svgrepo-com.svg" alt="CogNLP Lab" width={20} height={20} />
                 {currentLabel}
             </button>
             {open && (

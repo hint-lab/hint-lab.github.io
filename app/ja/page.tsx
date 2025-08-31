@@ -43,7 +43,7 @@ export default function HomePageJA() {
 
                     <div className="about-grid ">
                         <div className="about-photo">
-                            <Image src="/wang_hao.jpeg" alt="Hao WANG" width={300} height={300} style={{ width: '100%', height: 'auto' }} />
+                            <Image src="/people/wang_hao/wang_hao.jpeg" alt="Hao WANG" width={300} height={300} style={{ width: '100%', height: 'auto' }} />
                         </div>
                         <div>
                             {t.profile && t.profile.name && Array.isArray(t.profile.lines) && (
