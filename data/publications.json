@@ -1,7 +1,23 @@
 [
   {
+    "id": "meng2025building",
+    "type": "journal",
+    "title": "Building from Scratch: A Multi-Agent Framework with Human-in-the-Loop for Multilingual Legal Terminology Mapping",
+    "authors": [
+      "Meng, Lingyi",
+      "Liu, Maolin",
+      "Wang, Hao",
+      "Cheng1, Yilan",
+      "Yang, Qi",
+      "Mohammed, Idlkaid"
+    ],
+    "abbr": "ARTI",
+    "booktitle": "Artificial Intelligence and Law (SCI Q2/SSCI Q1)",
+    "year": 2025
+  },
+  {
     "id": "wang2025reading",
-    "type": "article",
+    "type": "inproceedings",
     "title": "Reading between the lines: How eye-tracking data can inform reading strategies for large language models",
     "authors": [
       "Wang, Hao",
@@ -15,7 +31,7 @@
   },
   {
     "id": "chen2025fc-render",
-    "type": "article",
+    "type": "inproceedings",
     "title": "FC-RENDER: Adaptive Font- and Color-Aware Text Ddiffusion Model",
     "authors": [
       "Chen, Bin",
@@ -30,7 +46,7 @@
   },
   {
     "id": "wang2025cogscinsights",
-    "type": "article",
+    "type": "inproceedings",
     "title": "Cognitive Insights into Document Comprehension: The Role of Reading Order and Visual Attention in Human and Large Language Models",
     "authors": [
       "Wang, Qingxuan",
