@@ -7,7 +7,7 @@
       "Wang, Hao",
       "Li, Tang",
       "Du, Siyuan",
-      "Wei, Xiao"
+      "Wei, Xiao*"
     ],
     "abbr": "TALLIP",
     "booktitle": "ACM Transactions on Asian and Low-Resource Language Information Processing (SCI/CCF-C)",
@@ -20,7 +20,7 @@
     "authors": [
       "Meng, Lingyi",
       "Liu, Maolin",
-      "Wang, Hao",
+      "Wang, Hao*",
       "Cheng, Yilan",
       "Yang, Qi",
       "Mohammed, Idlkaid"
@@ -37,7 +37,7 @@
       "Wang, Hao",
       "Wang, Qingxuan",
       "Zhang, Huiran",
-      "Zhu, Pinpin"
+      "Zhu, Pinpin*"
     ],
     "abbr": "ICIP",
     "booktitle": "In Proceedings of 2025 IEEE International Conference on Image Processing (ICIP, CCF-C)",
