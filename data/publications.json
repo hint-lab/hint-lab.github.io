@@ -1,5 +1,19 @@
 [
   {
+    "id": "wang2025metonymy",
+    "type": "journal",
+    "title": "Mixed Information Bottleneck for Location Metonymy Resolution Using Pre-trained Language Models",
+    "authors": [
+      "Wang, Hao",
+      "Li, Tang",
+      "Du, Siyuan",
+      "Wei, Xiao"
+    ],
+    "abbr": "TALLIP",
+    "booktitle": "ACM Transactions on Asian and Low-Resource Language Information Processing (SCI/CCF-C)",
+    "year": 2025
+  },
+  {
     "id": "meng2025building",
     "type": "journal",
     "title": "Building from Scratch: A Multi-Agent Framework with Human-in-the-Loop for Multilingual Legal Terminology Mapping",
@@ -7,7 +21,7 @@
       "Meng, Lingyi",
       "Liu, Maolin",
       "Wang, Hao",
-      "Cheng1, Yilan",
+      "Cheng, Yilan",
       "Yang, Qi",
       "Mohammed, Idlkaid"
     ],
@@ -342,7 +356,7 @@
     "year": 2020,
     "volume": "19",
     "number": "6",
-    "journal": "ACM Trans. Asian Low-Resour. Lang. Inf. Process. (SCI/CCF-C)"
+    "journal": "ACM Transactions on Asian and Low-Resource Language Information Processing (SCI/CCF-C)"
   },
   {
     "id": "Gao2020AnUF",
