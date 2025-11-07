@@ -1,5 +1,5 @@
 {
-    "brand": "CogNLP Lab",
+    "brand": "H!NT Lab",
     "nav": {
         "home": "ホーム",
         "publications": "研究業績",
@@ -13,8 +13,8 @@
         "contact": "連絡先"
     },
     "hero": {
-        "title": "CogNLP 研究室",
-        "subtitle": "人工知能・人間とAIの協働認知・自然言語処理",
+        "title": "H!NT 研究室",
+        "subtitle": "人間-コンピュータインタラクション· 自然言語理解 · 人間-コンピュータ協調認知",
         "ctaLearn": "概要を見る",
         "ctaEmail": "メール"
     },
@@ -99,8 +99,22 @@
                 "熊 恵文",
                 "2025",
                 "安徽財経大学 ",
-                "",
+                "推薦",
                 "人類LLM協同認知 "
+            ],
+            [
+                "馮 学",
+                "2025",
+                "蘇州楽行情報科技有限公司",
+                "非全日制",
+                "AI4Science"
+            ],
+            [
+                "張 清亞",
+                "2025",
+                "",
+                "非全日制",
+                "AI4Science"
             ],
             [
                 "IDLKAID MOHAMMED",
@@ -238,5 +252,5 @@
         "emailLabel": "EMAIL",
         "email": "wang-hao@shu.edu.cn"
     },
-    "footer": "© {year} CogNLP Lab. All rights reserved."
+    "footer": "© {year} H!NT Lab. All rights reserved."
 }

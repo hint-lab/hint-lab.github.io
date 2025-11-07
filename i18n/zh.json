@@ -1,5 +1,5 @@
 {
-    "brand": "CogNLP Lab",
+    "brand": "H!NT Lab",
     "nav": {
         "home": "主页",
         "publications": "研究成果",
@@ -9,12 +9,13 @@
         "expectations": "对学生的期待",
         "insights": "一点感悟",
         "students": "在读研究生",
+        "students-mem": "在读研究生（非全日）",
         "alumni": "往届毕业生",
         "contact": "联系"
     },
     "hero": {
-        "title": "CogNLP 实验室",
-        "subtitle": "人工智能 · 人机协同认知 · 自然语言处理",
+        "title": "H!NT 实验室",
+        "subtitle": "人机交互 · 自然语言理解 · 人机协同认知",
         "ctaLearn": "了解我们",
         "ctaEmail": "邮件联系"
     },
@@ -76,11 +77,11 @@
         "columns": [
             "姓名",
             "入学年份",
-            "本科院校",
+            "本科院校/工作单位",
             "备注",
             "研究方向"
         ],
-        "rows": [
+        "rows": [ 
             [
                 "刘瑞斌",
                 "2025",
@@ -99,8 +100,22 @@
                 "熊惠文",
                 "2025",
                 "安徽财经大学",
-                "",
+                "保送",
                 "人类大模型协同认知"
+            ],
+            [
+                "冯学",
+                "2025",
+                "苏州乐行信息科技有限公司",
+                "非全日制",
+                "AI4Science"
+            ],
+            [
+                "张清亚",
+                "2025",
+                "",
+                "非全日制",
+                "AI4Science"
             ],
             [
                 "IDLKAID MOHAMMED",
@@ -244,5 +259,5 @@
             }
         ]
     },
-    "footer": "© {year} CogNLP Lab. All rights reserved."
+    "footer": "© {year} H!NT Lab. All rights reserved."
 }

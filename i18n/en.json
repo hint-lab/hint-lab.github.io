@@ -1,5 +1,5 @@
 {
-    "brand": "CogNLP Lab",
+    "brand": "H!NT Lab",
     "nav": {
         "home": "Home",
         "publications": "Publications",
@@ -13,8 +13,8 @@
         "contact": "Contact"
     },
     "hero": {
-        "title": "CogNLP Lab",
-        "subtitle": "AI · Human-AI Cognition · NLP",
+        "title": "H!NT Lab",
+        "subtitle": "Human-Computer Interaction · Natural Language Understanding · Human-Computer Collaborative Cognition",
         "ctaLearn": "Learn More",
         "ctaEmail": "Email"
     },
@@ -100,8 +100,22 @@
                 "Huiwen Xiong",
                 "2025",
                 "Anhui University of Finance and Economics ",
-                "",
+                "Recommended",
                 "Human-LLM Collaborative Cognition"
+            ],
+            [
+                "Feng Xue",
+                "2025",
+                "Suzhou Lexing Information Technology Co., Ltd.",
+                "Part-time",
+                "AI4Science"
+            ],
+            [
+                "Zhang Qingya",
+                "2025",
+                "",
+                "Part-time",
+                "AI4Science"
             ],
             [
                 "IDLKAID MOHAMMED",
@@ -232,5 +246,5 @@
         "emailLabel": "EMAIL",
         "email": "wang-hao@shu.edu.cn"
     },
-    "footer": "© {year} CogNLP Lab. All rights reserved."
+    "footer": "© {year} H!NT Lab. All rights reserved."
 }
