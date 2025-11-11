@@ -420,3 +420,13 @@ a {
 .icon-primary {
     color: var(--color-primary);
 }
+
+.research-area-card {
+    transition: all 0.3s ease;
+}
+
+.research-area-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-color: var(--color-primary) !important;
+}
