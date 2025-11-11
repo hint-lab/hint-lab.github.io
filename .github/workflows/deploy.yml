@@ -44,6 +44,8 @@ jobs:
           # keep .nojekyll at root and subdir for safety
           cp -f out_tmp/.nojekyll out/.nojekyll || true
           cp -f out_tmp/.nojekyll out/people/wang_hao/.nojekyll || true
+          # Verify static assets are copied
+          ls -la out/people/wang_hao/hint-lab-logo.svg || echo "Warning: hint-lab-logo.svg not found"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

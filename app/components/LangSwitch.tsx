@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
+import { withBase } from '../lib/paths';
 export default function LangSwitch() {
     const pathname = usePathname();
     const current = pathname.startsWith('/en') ? 'en' : pathname.startsWith('/ja') ? 'ja' : 'zh';
@@ -38,7 +39,7 @@ export default function LangSwitch() {
         <div className="lang-dropdown">
 
             <button ref={btnRef} className="btn btn-outline btn-inline" aria-haspopup="menu" aria-expanded={open} onClick={() => setOpen(v => !v)}>
-                <Image src="/language-svgrepo-com.svg" alt="H!NT Lab" width={20} height={20} />
+                <Image src={withBase("/language-svgrepo-com.svg")} alt="H!NT Lab" width={20} height={20} />
                 {currentLabel}
             </button>
             {open && (
