@@ -214,7 +214,7 @@
                 "中国商飞，上海",
                 {
                     "text": "硕士论文",
-                    "href": "thesis/chenbin.pdf"
+                    "href": "/thesis/chenbin.pdf"
                 },
                 "保送"
             ],
@@ -225,7 +225,7 @@
                 "美团，上海",
                 {
                     "text": "硕士论文",
-                    "href": "thesis/wangchangqing.pdf"
+                    "href": "/thesis/wangchangqing.pdf"
                 },
                 ""
             ],
@@ -236,7 +236,7 @@
                 "中国电信，郑州",
                 {
                     "text": "硕士论文",
-                    "href": "thesis/wangqingxuan.pdf"
+                    "href": "/thesis/wangqingxuan.pdf"
                 },
                 "保送"
             ],
@@ -247,7 +247,7 @@
                 "中国电信，上海",
                 {
                     "text": "硕士论文",
-                    "href": "thesis/litang.pdf"
+                    "href": "/thesis/litang.pdf"
                 },
                 ""
             ],
@@ -258,7 +258,7 @@
                 "众安科技，上海",
                 {
                     "text": "硕士论文",
-                    "href": "thesis/chenxiahua.pdf"
+                    "href": "/thesis/chenxiahua.pdf"
                 },
                 ""
             ],
@@ -269,7 +269,7 @@
                 "中国联通，上海",
                 {
                     "text": "硕士论文",
-                    "href": "thesis/zhangjunwei.pdf"
+                    "href": "/thesis/zhangjunwei.pdf"
                 },
                 "研二转入"
             ],
@@ -280,7 +280,7 @@
                 "字节跳动，深圳",
                 {
                     "text": "硕士论文",
-                    "href": "thesis/taoxi.pdf"
+                    "href": "/thesis/taoxi.pdf"
                 },
                 ""
             ],
@@ -291,7 +291,7 @@
                 "SAP 思爱普，上海",
                 {
                     "text": "硕士论文",
-                    "href": "thesis/dusiyuan.pdf"
+                    "href": "/thesis/dusiyuan.pdf"
                 },
                 ""
             ]

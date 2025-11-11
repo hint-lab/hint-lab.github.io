@@ -214,7 +214,7 @@
                 "COMAC, Shanghai",
                 {
                     "text": "Master Thesis",
-                    "href": "thesis/陈斌-硕士论文.pdf"
+                    "href": "/thesis/chenbin.pdf"
                 },
                 "Recommended"
             ],
@@ -225,7 +225,7 @@
                 "Meituan, Shanghai",
                 {
                     "text": "Master Thesis",
-                    "href": "thesis/王常青-硕士论文.pdf"
+                    "href": "/thesis/wangchangqing.pdf"
                 },
                 ""
             ],
@@ -236,7 +236,7 @@
                 "China Telecom, Zhengzhou",
                 {
                     "text": "Master Thesis",
-                    "href": "thesis/王庆轩-硕士论文.pdf"
+                    "href": "/thesis/wangqingxuan.pdf"
                 },
                 "Recommended"
             ],
@@ -247,7 +247,7 @@
                 "China Telecom, Shanghai",
                 {
                     "text": "Master Thesis",
-                    "href": "thesis/李唐-面向视觉富文档信息抽取任务的知识迁移方法研究.pdf"
+                    "href": "/thesis/litang.pdf"
                 },
                 ""
             ],
@@ -258,7 +258,7 @@
                 "Zhongan Tech, Shanghai",
                 {
                     "text": "Master Thesis",
-                    "href": "thesis/陈夏华-跨模态提示增强的视觉富文档理解方法研究.pdf"
+                    "href": "/thesis/chenxiahua.pdf"
                 },
                 ""
             ],
@@ -269,7 +269,7 @@
                 "China Unicom, Shanghai",
                 {
                     "text": "Master Thesis",
-                    "href": "thesis/张俊伟-多元异构数据融合的视觉富文档理解方法研究.pdf"
+                    "href": "/thesis/zhangjunwei.pdf"
                 },
                 "Transferred in Year 2"
             ],
@@ -280,7 +280,7 @@
                 "ByteDance, Shenzhen",
                 {
                     "text": "Master Thesis",
-                    "href": "thesis/陶曦-面向不均衡样本的知识图谱构建与推理方法研究.pdf"
+                    "href": "/thesis/taoxi.pdf"
                 },
                 ""
             ],
@@ -291,7 +291,7 @@
                 "SAP, Shanghai",
                 {
                     "text": "Master Thesis",
-                    "href": "thesis/杜思远-基于深度学习的认知语言学转喻识别方法研究.pdf"
+                    "href": "/thesis/dusiyuan.pdf"
                 },
                 ""
             ]

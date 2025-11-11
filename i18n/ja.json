@@ -213,7 +213,7 @@
                 "COMAC（中国商飛・上海）",
                 {
                     "text": "修士論文",
-                    "href": "thesis/陈斌-硕士论文.pdf"
+                    "href": "/thesis/chenbin.pdf"
                 },
                 "推薦"
             ],
@@ -224,7 +224,7 @@
                 "美団（上海）",
                 {
                     "text": "修士論文",
-                    "href": "thesis/王常青-硕士论文.pdf"
+                    "href": "/thesis/wangchangqing.pdf"
                 },
                 ""
             ],
@@ -235,7 +235,7 @@
                 "中国電信（鄭州）",
                 {
                     "text": "修士論文",
-                    "href": "thesis/王庆轩-硕士论文.pdf"
+                    "href": "/thesis/wangqingxuan.pdf"
                 },
                 "推薦"
             ],
@@ -246,7 +246,7 @@
                 "中国電信（上海）",
                 {
                     "text": "修士論文",
-                    "href": "thesis/李唐-面向视觉富文档信息抽取任务的知识迁移方法研究.pdf"
+                    "href": "/thesis/litang.pdf"
                 },
                 ""
             ],
@@ -257,7 +257,7 @@
                 "衆安科技（上海）",
                 {
                     "text": "修士論文",
-                    "href": "thesis/陈夏华-跨模态提示增强的视觉富文档理解方法研究.pdf"
+                    "href": "/thesis/chenxiahua.pdf"
                 },
                 ""
             ],
@@ -268,7 +268,7 @@
                 "中国聯通（上海）",
                 {
                     "text": "修士論文",
-                    "href": "thesis/张俊伟-多元异构数据融合的视觉富文档理解方法研究.pdf"
+                    "href": "/thesis/zhangjunwei.pdf"
                 },
                 "2年次編入"
             ],
@@ -279,7 +279,7 @@
                 "ByteDance（深圳）",
                 {
                     "text": "修士論文",
-                    "href": "thesis/陶曦-面向不均衡样本的知识图谱构建与推理方法研究.pdf"
+                    "href": "/thesis/taoxi.pdf"
                 },
                 ""
             ],
@@ -290,7 +290,7 @@
                 "SAP（上海）",
                 {
                     "text": "修士論文",
-                    "href": "thesis/杜思远-基于深度学习的认知语言学转喻识别方法研究.pdf"
+                    "href": "/thesis/dusiyuan.pdf"
                 },
                 ""
             ]
