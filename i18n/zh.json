@@ -4,6 +4,7 @@
         "home": "主页",
         "publications": "研究成果",
         "about": "个人简介",
+        "projects": "研究项目",
         "courses": "主讲课程",
         "research": "研究方向",
         "expectations": "对学生的期待",
@@ -18,6 +19,30 @@
         "subtitle": "人机交互 · 自然语言理解 · 人机协同认知",
         "ctaLearn": "了解我们",
         "ctaEmail": "邮件联系"
+    },
+    "labIntro": {
+        "title": "H!NT Lab",
+        "p1": "H!NT Lab（Human-Intelligence iNTegration Lab）实验室专注于探索人类智能与机器智能深度融合的前沿技术，致力于构建更加自然、高效、智能的人机协同系统。",
+        "researchTitle": "研究领域",
+        "researchIntro": "我们的研究围绕三个核心领域展开：",
+        "areas": [
+            {
+                "icon": "Brain",
+                "title": "人机认知协同",
+                "description": "探索人类认知与人工智能的协同机制"
+            },
+            {
+                "icon": "Lightbulb",
+                "title": "人机交互",
+                "description": "开发更自然高效的交互技术与系统"
+            },
+            {
+                "icon": "FileText",
+                "title": "自然语言理解",
+                "description": "深入研究语言的理解与生成技术"
+            }
+        ],
+        "synergy": "这三个方向相互支撑、协同发展：深度的自然语言理解为人机交互提供更自然的沟通方式，先进的交互技术使人机认知协同更加高效，而认知协同研究又反过来指导和优化语言理解与交互设计。"
     },
     "about": {
         "title": "个人简介",
@@ -56,6 +81,37 @@
         "notePrefix": "目前的名额充足（2～3名），欢迎感兴趣的同学",
         "contactCta": "【点击这里】",
         "noteSuffix": "联系。"
+    },
+    "projects": {
+        "title": "研究项目",
+        "subtitle": "我们实验室正在进行的主要研究项目",
+        "cards": [
+            {
+                "name": "DeepTrans Studio",
+                "description": "专业的深度翻译工作室，基于人工智能的高质量翻译平台，支持多语言文档的智能翻译与后期编辑。",
+                "logo": "/projects/deeptrans-logo.svg",
+                "link": "https://www.deeptrans.studio"
+            },
+            {
+                "name": "DeepMed Search",
+                "description": "医学文献智能检索系统，利用深度学习和知识图谱技术，为医学研究人员提供精准的文献检索和推荐服务。",
+                "logo": "/projects/deepmed-logo.svg",
+                "link": "https://www.deepmedsearch.cloud"
+            },
+            {
+                "name": "ChineseLawTranslation",
+                "description": "中国法律文献双语翻译项目，建立高质量的中英法律术语库，推动中国法律的国际化传播。",
+                "logo": "/projects/chineselaw-logo.png",
+                "link": "https://www.chineselawtranslation.com"
+            },
+            {
+                "name": "DeepMateria",
+                "description": "材料科学知识图谱构建平台（开发中），致力于从海量材料科学文献中抽取知识，构建材料领域的知识图谱。",
+                "logo": "/projects/deepmateria-logo.png",
+                "link": "https://www.deepmateria.com",
+                "status": "开发中"
+            }
+        ]
     },
     "expectations": {
         "title": "对学生的期待",
@@ -113,7 +169,7 @@
             [
                 "张清亚",
                 "2025",
-                "",
+                "上海神州数码有限公司",
                 "非全日制",
                 "AI4Science"
             ],

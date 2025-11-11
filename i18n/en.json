@@ -4,6 +4,7 @@
         "home": "Home",
         "publications": "Publications",
         "about": "About",
+        "projects": "Projects",
         "courses": "Courses",
         "research": "Research",
         "expectations": "Expectations",
@@ -17,6 +18,30 @@
         "subtitle": "Human-Computer Interaction · Natural Language Understanding · Human-Computer Collaborative Cognition",
         "ctaLearn": "Learn More",
         "ctaEmail": "Email"
+    },
+    "labIntro": {
+        "title": "H!NT Lab",
+        "p1": "H!NT Lab (Human-Intelligence iNTegration Lab) focuses on exploring cutting-edge technologies for the deep integration of human intelligence and machine intelligence, dedicated to building more natural, efficient, and intelligent human-AI collaboration systems.",
+        "researchTitle": "Research Areas",
+        "researchIntro": "Our research centers on three core areas:",
+        "areas": [
+            {
+                "icon": "Brain",
+                "title": "Human-AI Cognitive Collaboration",
+                "description": "Exploring synergistic mechanisms between human cognition and AI"
+            },
+            {
+                "icon": "Lightbulb",
+                "title": "Human-Computer Interaction",
+                "description": "Developing more natural and efficient interaction technologies"
+            },
+            {
+                "icon": "FileText",
+                "title": "Natural Language Understanding",
+                "description": "Deep research on language understanding and generation"
+            }
+        ],
+        "synergy": "These three directions mutually support and synergistically develop: deep natural language understanding provides more natural communication methods for human-computer interaction, advanced interaction technologies make human-AI cognitive collaboration more efficient, and cognitive collaboration research in turn guides and optimizes language understanding and interaction design."
     },
     "about": {
         "title": "About",
@@ -56,6 +81,37 @@
         "notePrefix": "Open positions (2–3). If interested,",
         "contactCta": "contact us",
         "noteSuffix": "."
+    },
+    "projects": {
+        "title": "Research Projects",
+        "subtitle": "Major research projects ongoing in our lab",
+        "cards": [
+            {
+                "name": "DeepTrans Studio",
+                "description": "Professional deep translation studio. An AI-powered high-quality translation platform supporting intelligent translation and post-editing of multilingual documents.",
+                "logo": "/projects/deeptrans-logo.svg",
+                "link": "https://www.deeptrans.studio"
+            },
+            {
+                "name": "DeepMed Search",
+                "description": "Intelligent medical literature retrieval system. Utilizing deep learning and knowledge graph technology to provide precise literature search and recommendation for medical researchers.",
+                "logo": "/projects/deepmed-logo.svg",
+                "link": "https://www.deepmedsearch.cloud"
+            },
+            {
+                "name": "ChineseLawTranslation",
+                "description": "Chinese law bilingual translation project. Building a high-quality Chinese-English legal terminology database to promote international dissemination of Chinese law.",
+                "logo": "/projects/chineselaw-logo.png",
+                "link": "https://www.chineselawtranslation.com"
+            },
+            {
+                "name": "DeepMateria",
+                "description": "Materials science knowledge graph construction platform (under development). Dedicated to extracting knowledge from massive materials science literature and building a knowledge graph for the materials domain.",
+                "logo": "/projects/deepmateria-logo.png",
+                "link": "https://www.deepmateria.com",
+                "status": "Under Development"
+            }
+        ]
     },
     "expectations": {
         "title": "Expectations",
@@ -121,7 +177,7 @@
                 "IDLKAID MOHAMMED",
                 "2024",
                 "Sidi Mohamed Ben Abdellah University",
-                "International Student(Morocco)",
+                "International Student (Morocco)",
                 "Interactive Medical RAG"
             ],
             [

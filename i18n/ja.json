@@ -4,6 +4,7 @@
         "home": "ホーム",
         "publications": "研究業績",
         "about": "自己紹介",
+        "projects": "研究プロジェクト",
         "courses": "担当科目",
         "research": "研究分野",
         "expectations": "学生への期待",
@@ -17,6 +18,30 @@
         "subtitle": "人間-コンピュータインタラクション· 自然言語理解 · 人間-コンピュータ協調認知",
         "ctaLearn": "概要を見る",
         "ctaEmail": "メール"
+    },
+    "labIntro": {
+        "title": "H!NT Lab",
+        "p1": "H!NT Lab（Human-Intelligence iNTegration Lab）は、人間の知能と機械の知能を深く統合する最先端技術の探索に焦点を当て、より自然で効率的かつ知的な人間とAIの協働システムの構築に取り組んでいます。",
+        "researchTitle": "研究領域",
+        "researchIntro": "私たちの研究は3つのコア領域を中心に展開されています：",
+        "areas": [
+            {
+                "icon": "Brain",
+                "title": "人間-AI認知協働",
+                "description": "人間の認知とAIの協調メカニズムを探究"
+            },
+            {
+                "icon": "Lightbulb",
+                "title": "ヒューマン・コンピュータ・インタラクション",
+                "description": "より自然で効率的なインタラクション技術を開発"
+            },
+            {
+                "icon": "FileText",
+                "title": "自然言語理解",
+                "description": "言語の理解と生成技術を深く研究"
+            }
+        ],
+        "synergy": "これら3つの方向性は相互に支援し合い、相乗的に発展しています。深い自然言語理解は、人間とコンピュータのインタラクションにより自然なコミュニケーション方法を提供し、先進的なインタラクション技術は人間とAIの認知協働をより効率的にし、認知協働の研究は言語理解とインタラクション設計を導き最適化します。"
     },
     "about": {
         "title": "自己紹介",
@@ -55,6 +80,37 @@
         "notePrefix": "現在、2～3名の募集枠があります。ご興味のある方は",
         "contactCta": "【こちら】",
         "noteSuffix": "からご連絡ください。"
+    },
+    "projects": {
+        "title": "研究プロジェクト",
+        "subtitle": "当研究室で進行中の主要研究プロジェクト",
+        "cards": [
+            {
+                "name": "DeepTrans Studio",
+                "description": "プロフェッショナルな深層翻訳スタジオ。AIを活用した高品質翻訳プラットフォームで、多言語文書のインテリジェント翻訳とポストエディットをサポート。",
+                "logo": "/projects/deeptrans-logo.svg",
+                "link": "https://www.deeptrans.studio"
+            },
+            {
+                "name": "DeepMed Search",
+                "description": "医学文献インテリジェント検索システム。深層学習と知識グラフ技術を活用し、医学研究者に精密な文献検索と推薦サービスを提供。",
+                "logo": "/projects/deepmed-logo.svg",
+                "link": "https://www.deepmedsearch.cloud"
+            },
+            {
+                "name": "ChineseLawTranslation",
+                "description": "中国法律文献バイリンガル翻訳プロジェクト。高品質な中英法律用語データベースを構築し、中国法の国際的普及を推進。",
+                "logo": "/projects/chineselaw-logo.png",
+                "link": "https://www.chineselawtranslation.com"
+            },
+            {
+                "name": "DeepMateria",
+                "description": "材料科学知識グラフ構築プラットフォーム（開発中）。大量の材料科学文献から知識を抽出し、材料分野の知識グラフを構築することに専念。",
+                "logo": "/projects/deepmateria-logo.png",
+                "link": "https://www.deepmateria.com",
+                "status": "開発中"
+            }
+        ]
     },
     "expectations": {
         "title": "学生への期待",
