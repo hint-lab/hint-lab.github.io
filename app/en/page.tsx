@@ -68,60 +68,34 @@ export default function HomePageEN() {
 
             {/* Publications moved to /en/publication */}
 
-            <section id="research-areas" className="section" style={{ background: 'var(--bg-secondary)' }}>
+            <section id="research-areas" className="section">
                 <div className="container">
-                    <div style={{ textAlign: 'center', marginBottom: '48px' }}>
-                        <h2 className="section-title" style={{ marginBottom: '16px' }}>{t.labIntro.researchTitle}</h2>
-                        <p style={{ fontSize: '1.1rem', color: 'var(--color-muted)', maxWidth: '700px', margin: '0 auto' }}>
-                            {t.labIntro.researchIntro}
-                        </p>
-                    </div>
+                    <h2 className="section-title">{t.labIntro.researchTitle}</h2>
+                    <p>{t.labIntro.researchIntro}</p>
                     
-                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '32px', marginBottom: '48px' }}>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '24px', marginTop: '24px' }}>
                         {t.labIntro.areas.map((area: any, idx: number) => {
                             const IconComponent = iconMap[area.icon] || Brain;
                             return (
-                                <div key={idx} className="research-area-card" style={{ 
-                                    padding: '32px', 
-                                    background: 'var(--bg-primary)', 
-                                    borderRadius: '12px',
-                                    border: '2px solid var(--border-color)',
-                                    textAlign: 'center',
-                                    transition: 'all 0.3s ease',
-                                    cursor: 'default'
+                                <div key={idx} style={{ 
+                                    padding: '24px', 
+                                    background: 'var(--bg-secondary)', 
+                                    borderRadius: '8px',
+                                    border: '1px solid var(--border-color)'
                                 }}>
-                                    <div style={{ 
-                                        width: '80px', 
-                                        height: '80px', 
-                                        margin: '0 auto 24px',
-                                        background: 'linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%)',
-                                        borderRadius: '16px',
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        justifyContent: 'center',
-                                        boxShadow: '0 4px 12px rgba(78, 121, 167, 0.3)',
-                                        color: 'white'
-                                    }}>
-                                        <IconComponent size={42} />
+                                    <div style={{ fontSize: '2.5rem', marginBottom: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <IconComponent size={40} className="icon-primary" />
                                     </div>
-                                    <h3 style={{ fontSize: '1.4rem', fontWeight: '600', marginBottom: '12px', color: 'var(--color-text)' }}>{area.title}</h3>
-                                    <p style={{ color: 'var(--color-muted)', fontSize: '1rem', lineHeight: '1.6' }}>{area.description}</p>
+                                    <h4 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '8px' }}>{area.title}</h4>
+                                    <p style={{ color: 'var(--color-muted)', fontSize: '0.95rem' }}>{area.description}</p>
                                 </div>
                             );
                         })}
                     </div>
                     
-                    <div style={{ 
-                        background: 'linear-gradient(135deg, rgba(78, 121, 167, 0.1) 0%, rgba(78, 121, 167, 0.05) 100%)',
-                        padding: '24px 32px', 
-                        borderRadius: '12px', 
-                        borderLeft: '4px solid var(--primary-color)',
-                        boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)'
-                    }}>
-                        <p style={{ fontSize: '1.05rem', lineHeight: '1.8', color: 'var(--color-text)', margin: 0 }}>
-                            {t.labIntro.synergy}
-                        </p>
-                    </div>
+                    <p style={{ marginTop: '24px', padding: '16px', background: 'var(--bg-secondary)', borderRadius: '8px', borderLeft: '4px solid var(--primary-color)' }}>
+                        {t.labIntro.synergy}
+                    </p>
                 </div>
             </section>
 
