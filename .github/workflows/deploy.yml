@@ -44,6 +44,22 @@ jobs:
           # keep .nojekyll at root and subdir for safety
           cp -f out_tmp/.nojekyll out/.nojekyll || true
           cp -f out_tmp/.nojekyll out/people/wang_hao/.nojekyll || true
+          # Create root index.html that redirects to /people/wang_hao/
+          cat > out/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="zh-CN">
+          <head>
+            <meta charset="utf-8">
+            <meta http-equiv="refresh" content="0; url=/people/wang_hao/">
+            <link rel="canonical" href="/people/wang_hao/">
+            <title>H!NT Lab - Redirecting...</title>
+            <script>window.location.href="/people/wang_hao/";</script>
+          </head>
+          <body>
+            <p>正在跳转到 <a href="/people/wang_hao/">H!NT Lab</a>...</p>
+          </body>
+          </html>
+          EOF
           # Verify static assets are copied
           ls -la out/people/wang_hao/hint-lab-logo.svg || echo "Warning: hint-lab-logo.svg not found"
 
