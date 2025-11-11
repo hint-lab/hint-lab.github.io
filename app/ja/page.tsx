@@ -2,7 +2,6 @@ import LangSwitch from '../components/LangSwitch';
 import Link from 'next/link';
 import SideToc from '../components/SideToc';
 import { getDict } from '../lib/i18n';
-import { withBase } from '../lib/paths';
 import Image from 'next/image';
 import { Brain, Lightbulb, FileText } from 'lucide-react';
 
@@ -38,7 +37,7 @@ export default function HomePageJA() {
                 <div className="container">
                     {/* Logo */}
                     <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '32px' }}>
-                        <Image src={withBase("/hint-lab-logo.svg")} alt="H!NT Lab Logo" width={300} height={300} style={{ width: 'auto', height: '120px' }} />
+                        <Image src="/hint-lab-logo.svg" alt="H!NT Lab Logo" width={300} height={300} style={{ width: 'auto', height: '120px' }} />
                     </div>
                     
                     {/* タイトルとサブタイトル */}
@@ -120,7 +119,7 @@ export default function HomePageJA() {
                         {t.projects.cards.map((project: any, idx: number) => (
                             <a key={idx} href={project.link} target="_blank" rel="noopener noreferrer" className="project-card">
                                 {project.status && <div className="project-status">{project.status}</div>}
-                                <Image src={withBase(project.logo)} alt={project.name} width={160} height={120} className="project-logo" />
+                                <Image src={project.logo} alt={project.name} width={160} height={120} className="project-logo" />
                                 <div className="project-content">
                                     <h3>{project.name}</h3>
                                     <p>{project.description}</p>

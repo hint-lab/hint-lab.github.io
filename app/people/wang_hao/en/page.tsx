@@ -2,7 +2,6 @@ import LangSwitch from '../../../components/LangSwitch';
 import Link from 'next/link';
 import SideToc from '../../../components/SideToc';
 import { getDict } from '../../../lib/i18n';
-import { withBase } from '../../../lib/paths';
 import Image from 'next/image';
 
 export default function WangHaoPageEN() {
@@ -32,7 +31,7 @@ export default function WangHaoPageEN() {
                     <h2 className="section-title">{t.about.title}</h2>
                     <div className="about-grid">
                         <div className="about-photo">
-                            <Image src={withBase("/wang_hao.jpeg")} alt="Hao WANG" width={300} height={300} style={{ width: '100%', height: 'auto' }} />
+                            <Image src="/wang_hao.jpeg" alt="Hao WANG" width={300} height={300} style={{ width: '100%', height: 'auto' }} />
                         </div>
                         <div>
                             {t.profile && t.profile.name && Array.isArray(t.profile.lines) && (
@@ -141,7 +140,7 @@ export default function WangHaoPageEN() {
                                         {r.map((cell: any, cidx: number) => (
                                             <td key={cidx}>
                                                 {cell && typeof cell === 'object' && 'href' in cell ? (
-                                                    <a href={withBase(cell.href)} target="_blank" rel="noopener noreferrer">{cell.text}</a>
+                                                    <a href={cell.href} target="_blank" rel="noopener noreferrer">{cell.text}</a>
                                                 ) : (
                                                     cell
                                                 )}
