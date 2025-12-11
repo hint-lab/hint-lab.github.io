@@ -45,7 +45,7 @@
     },
     "about": {
         "title": "About",
-        "p1": "Ph.D. in Engineering. Lecturer (2019–2024), Associate Professor (2024–). Funded by CSC for doctoral study, earned M.S. and Ph.D. from Waseda University in 2014 and 2019. Worked at MSRA, Toshiba Global R&D, and NTT Communication Science Labs. 30+ papers in EMNLP, COLING, CogSci, etc., including 25+ in SCI/SSCI/A&HCI indexed journals or CCF-recommended venues. PI of a Shanghai Sci&Tech Commission program (completed) and NSFC Youth project (AI-X); led 5 industry collaborations. Served as PC/Reviewer for ICLR, ICML, NeurIPS, ACL, EMNLP, AAAI, and journals such as TKDD, TNNLS, NLE. Research areas: AI, human–AI collaborative cognition, and NLP (incl. medical documents).",
+        "p1": "Dr. Hao Wang is an Associate Professor at Shanghai University, specializing in Artificial Intelligence (AI), Natural Language Processing (NLP), and Human-Computer Collaborative Cognition. Following a Ph.D. from Waseda University, Japan, and supported by a CSC scholarship, his professional experience includes roles at Microsoft Research Asia (MSRA), Toshiba, and NTT, providing him with a unique international perspective on R&D. Dr. Wang is a Principal Investigator of the National Natural Science Foundation of China (NSFC) and has published over 30 conference and journal papers in top-tier AI venues like CogSci, COLING, and EMNLP. Crucially, he is currently serving as a seconded Deputy Director at the Putuo District Data Bureau in Shanghai, actively bridging his academic research—particularly in developing intelligent OS-Level and context-aware agents—with Smart Governance and practical public administration solutions",
         "p2": "We primarily welcome students with NLP backgrounds, and also those from linguistics, cognitive science, and psychology. International students are also welcome."
     },
     "profile": {
@@ -87,6 +87,12 @@
         "subtitle": "Major research projects ongoing in our lab",
         "cards": [
             {
+                "name": "Deepling.tech",
+                "description": "An AI-powered tech commentary self-media with a distinct personality, fully automated and known for its sharp, witty tech reviews.",
+                "logo": "/projects/deepling-logo.png",
+                "link": "https://www.deepling.tech"
+            },
+            {
                 "name": "DeepTrans Studio",
                 "description": "Professional deep translation studio. An AI-powered high-quality translation platform supporting intelligent translation and post-editing of multilingual documents.",
                 "logo": "/projects/deeptrans-logo.svg",
@@ -103,14 +109,8 @@
                 "description": "Chinese law bilingual translation project. Building a high-quality Chinese-English legal terminology database to promote international dissemination of Chinese law.",
                 "logo": "/projects/chineselaw-logo.png",
                 "link": "https://www.chineselawtranslation.com"
-            },
-            {
-                "name": "DeepMateria",
-                "description": "Materials science knowledge graph construction platform (under development). Dedicated to extracting knowledge from massive materials science literature and building a knowledge graph for the materials domain.",
-                "logo": "/projects/deepmateria-logo.png",
-                "link": "https://www.deepmateria.com",
-                "status": "Under Development"
             }
+            
         ]
     },
     "expectations": {

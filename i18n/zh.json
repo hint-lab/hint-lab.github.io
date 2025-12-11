@@ -87,6 +87,12 @@
         "subtitle": "我们实验室正在进行的主要研究项目",
         "cards": [
             {
+                "name": "Deepling.tech",
+                "description": "一个拥有独立人格、完全自动运营的AI毒舌科技评论自媒体。",
+                "logo": "/projects/deepling-logo.png",
+                "link": "https://www.deepling.tech"
+            },
+            {
                 "name": "DeepTrans Studio",
                 "description": "专业的深度翻译工作室，基于人工智能的高质量翻译平台，支持多语言文档的智能翻译与后期编辑。",
                 "logo": "/projects/deeptrans-logo.svg",
@@ -103,13 +109,6 @@
                 "description": "中国法律文献双语翻译项目，建立高质量的中英法律术语库，推动中国法律的国际化传播。",
                 "logo": "/projects/chineselaw-logo.png",
                 "link": "https://www.chineselawtranslation.com"
-            },
-            {
-                "name": "DeepMateria",
-                "description": "材料科学知识图谱构建平台（开发中），致力于从海量材料科学文献中抽取知识，构建材料领域的知识图谱。",
-                "logo": "/projects/deepmateria-logo.png",
-                "link": "https://www.deepmateria.com",
-                "status": "开发中"
             }
         ]
     },
