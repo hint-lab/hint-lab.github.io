@@ -2,6 +2,19 @@
   {
     "id": "wang2025metonymy",
     "type": "journal",
+    "title": "MoE-TextDiffuser: Fine-grained control of font and color in visual text rendering",
+    "authors": [
+      "Chen, Bin",
+      "Liu, Maolin",
+      "Hao, Wang*"
+    ],
+    "abbr": "NEUCO",
+    "booktitle": "Neurocomputing (SCI Q2/CCF-C)",
+    "year": 2026
+  },
+  {
+    "id": "wang2025metonymy",
+    "type": "journal",
     "title": "Mixed Information Bottleneck for Location Metonymy Resolution Using Pre-trained Language Models",
     "authors": [
       "Wang, Hao",
