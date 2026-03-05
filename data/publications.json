@@ -1,6 +1,7 @@
 [
+
   {
-    "id": "wang2025metonymy",
+    "id": "chen2026moe-textdiffuser",
     "type": "journal",
     "title": "MoE-TextDiffuser: Fine-grained control of font and color in visual text rendering",
     "authors": [
