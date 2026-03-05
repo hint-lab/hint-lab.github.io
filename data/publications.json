@@ -1,5 +1,19 @@
 [
-
+  {
+    "id": "chen2026moe-textdiffuser",
+    "type": "journal",
+    "title": "HeterMV: Multi-view reasoning over source-aware heterogeneous evidence graph for multi-source fact verification",
+    "authors": [
+      "Gu, Junnan",
+      "Li, Weimin*",
+      "Liu, Fangfang",
+      "Liu, Wei",
+      "Hao, Wang"
+    ],
+    "abbr": "IPM",
+    "booktitle": "Information Processing & Management (SCI Q1/SSCI Q1)",
+    "year": 2026
+  },
   {
     "id": "chen2026moe-textdiffuser",
     "type": "journal",
