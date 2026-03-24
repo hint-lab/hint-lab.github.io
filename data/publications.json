@@ -1,5 +1,18 @@
 [
   {
+    "id": "liu2026qalign-rag",
+    "type": "inproceedings",
+    "title": "QAlign-RAG: Causal-Aware Pseudo-Question Generation and Debate-Driven Verification for Medical RAG",
+    "authors": [
+      "Liu, Maolin",
+      "Yang, Qi",
+      "Wang, Hao"
+    ],
+    "abbr": "KSEM",
+    "booktitle": "In Proceedings of the 19th International Conference on Knowledge Science, Engineering and Management (KSEM, CCF-C)",
+    "year": 2026
+  },
+  {
     "id": "chen2026moe-textdiffuser",
     "type": "journal",
     "title": "HeterMV: Multi-view reasoning over source-aware heterogeneous evidence graph for multi-source fact verification",
