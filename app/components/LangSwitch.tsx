@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
+import { ChevronDown } from 'lucide-react';
 export default function LangSwitch() {
     const pathname = usePathname();
     const current = pathname.startsWith('/en') ? 'en' : pathname.startsWith('/ja') ? 'ja' : 'zh';
@@ -40,6 +41,7 @@ export default function LangSwitch() {
             <button ref={btnRef} className="btn btn-outline btn-inline" aria-haspopup="menu" aria-expanded={open} onClick={() => setOpen(v => !v)}>
                 <Image src="/language-svgrepo-com.svg" alt="H!NT Lab" width={20} height={20} />
                 {currentLabel}
+                <ChevronDown size={16} className="lang-caret" />
             </button>
             {open && (
                 <div ref={menuRef} className="lang-menu" role="menu">
@@ -52,5 +54,4 @@ export default function LangSwitch() {
         </div>
     );
 }
-
 

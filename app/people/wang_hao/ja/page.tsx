@@ -1,64 +1,87 @@
-import LangSwitch from '../../../components/LangSwitch';
+'use client';
+
 import Link from 'next/link';
 import SideToc from '../../../components/SideToc';
 import { getDict } from '../../../lib/i18n';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
+
+function SectionHeading({ title }: { title: string }) {
+  return (
+    <div className="section-head">
+      <h2 className="section-title">{title}</h2>
+      <div className="section-line" />
+    </div>
+  );
+}
 
 export default function WangHaoPageJA() {
     const t = getDict('ja');
+    const [scrolled, setScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => setScrolled(window.scrollY > 50);
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
     return (
-        <main>
-            <header className="site-header">
+        <main className="page-shell">
+            <header className={`site-header ${scrolled ? 'scrolled' : ''}`} style={{ position: 'sticky', background: '#fff', color: 'var(--color-text)', borderBottom: '1px solid var(--color-border)' }}>
                 <div className="container header-inner">
-                    <div className="brand"><Link href="/">{t.brand}</Link></div>
-                    <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
-                        <nav className="nav">
-                            <Link href="/ja">{t.nav.home}</Link>
-                            <Link href="/people/wang_hao/ja">{t.nav.about}</Link>
-                            <a href="/ja#research-areas">{t.labIntro.researchTitle}</a>
-                            <a href="/ja#projects">{t.nav.projects}</a>
-                            <Link href="/ja/publication">{t.nav.publications}</Link>
-                            <a href="/people/wang_hao/ja#students">{t.nav.students}</a>
-                            <a href="/ja#contact">{t.nav.contact}</a>
-                        </nav>
-                        <LangSwitch />
+                    <div className="brand"><Link href="/ja">{t.brand}</Link></div>
+                    <nav className="nav">
+                        <Link href="/ja">{t.nav.home}</Link>
+                        <Link href="/people/wang_hao/ja" aria-current="page">{t.nav.about}</Link>
+                        <a href="/ja#research-areas">{t.labIntro.researchTitle}</a>
+                        <a href="/ja#projects">{t.nav.projects}</a>
+                        <Link href="/ja/publication">{t.nav.publications}</Link>
+                        <a href="#students">{t.nav.students}</a>
+                        <a href="/ja#contact">{t.nav.contact}</a>
+                    </nav>
+                    <div className="header-actions">
+                        <div className="lang-switch">
+                            <Link href="/people/wang_hao">中文</Link>
+                            <span style={{ margin: '0 8px', opacity: 0.3 }}>/</span>
+                            <Link href="/people/wang_hao/en">EN</Link>
+                        </div>
                     </div>
                 </div>
             </header>
 
             <section id="about" className="section">
                 <div className="container">
-                    <h2 className="section-title">{t.about.title}</h2>
-                    <div className="about-grid ">
-                        <div className="about-photo">
-                            <Image src="/wang_hao.jpeg" alt="Hao WANG" width={300} height={300} style={{ width: '100%', height: 'auto' }} />
+                    <div className="about-grid">
+                        <div className="about-photo-wrap">
+                            <Image src="/wang_hao.jpeg" alt="Hao WANG" width={160} height={160} />
                         </div>
-                        <div>
-                            {t.profile && t.profile.name && Array.isArray(t.profile.lines) && (
-                                <div className="profile-card">
-                                    <div className="lines">
-                                        {t.profile.lines.map((line: string, idx: number) => (<div key={idx}>{line}</div>))}
-                                    </div>
-                                    <div className="contact-email">
-                                        <a href={`mailto:${t.contact.email}`}>{t.contact.email}</a>
-                                    </div>
-                                </div>
-                            )}
+                        <div className="profile-card">
+                            <h2>{t.profile.name}</h2>
+                            <div className="lines">
+                                {t.profile.lines.map((line: string, idx: number) => (<div key={idx}>{line}</div>))}
+                            </div>
+                            <div className="contact-email">
+                                <a href={`mailto:${t.contact.email}`}>{t.contact.email}</a>
+                            </div>
                         </div>
                     </div>
-                    <p>{t.about.p1}</p>
-                    <p>{t.about.p2}</p>
+                    
+                    <SectionHeading title={t.about.title} />
+                    <div style={{ maxWidth: '800px' }}>
+                        <p>{t.about.p1}</p>
+                        <p>{t.about.p2}</p>
+                    </div>
                 </div>
             </section>
 
-            <section id="courses" className="section">
+            <section id="courses" className="section section-alt">
                 <div className="container">
-                    <h2 className="section-title">{t.courses.title}</h2>
+                    <SectionHeading title={t.courses.title} />
                     <ul className="list">
                         {t.courses.list.map((item, idx) => (
                             <li key={idx}>
                                 {item.href ? (
-                                    <a href={item.href} target="_blank" rel="noopener noreferrer">{item.text}</a>
+                                    <a href={item.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-primary)' }}>{item.text}</a>
                                 ) : (
                                     item.text
                                 )}
@@ -70,19 +93,19 @@ export default function WangHaoPageJA() {
 
             <section id="research" className="section">
                 <div className="container">
-                    <h2 className="section-title">{t.research.title}</h2>
+                    <SectionHeading title={t.research.title} />
                     <ul className="list">
                         {t.research.bullets.map((b, idx) => (<li key={idx}>{b}</li>))}
                     </ul>
-                    <p>
-                        {t.research.notePrefix} <a className="link-strong" href={`mailto:${t.contact.email}`}>{t.research.contactCta}</a> {t.research.noteSuffix}
+                    <p style={{ marginTop: '24px', color: 'var(--color-muted)' }}>
+                        {t.research.notePrefix} <a href={`mailto:${t.contact.email}`} style={{ color: 'var(--color-primary)', fontWeight: '600' }}>{t.research.contactCta}</a> {t.research.noteSuffix}
                     </p>
                 </div>
             </section>
 
-            <section id="expectations" className="section">
+            <section id="expectations" className="section section-alt">
                 <div className="container">
-                    <h2 className="section-title">{t.expectations.title}</h2>
+                    <SectionHeading title={t.expectations.title} />
                     <ul className="list">
                         {t.expectations.list.map((b, idx) => (<li key={idx}>{b}</li>))}
                     </ul>
@@ -91,7 +114,7 @@ export default function WangHaoPageJA() {
 
             <section id="insights" className="section">
                 <div className="container">
-                    <h2 className="section-title">{t.insights.title}</h2>
+                    <SectionHeading title={t.insights.title} />
                     <blockquote className="quote">
                         <p>
                             {t.insights.quoteLines[0]}
@@ -102,9 +125,9 @@ export default function WangHaoPageJA() {
                 </div>
             </section>
 
-            <section id="students" className="section">
+            <section id="students" className="section section-alt">
                 <div className="container">
-                    <h2 className="section-title">{t.students.title}</h2>
+                    <SectionHeading title={t.students.title} />
                     <div className="table-wrap">
                         <table className="table">
                             <thead>
@@ -126,7 +149,7 @@ export default function WangHaoPageJA() {
 
             <section id="alumni" className="section">
                 <div className="container">
-                    <h2 className="section-title">{t.alumni.title}</h2>
+                    <SectionHeading title={t.alumni.title} />
                     <div className="table-wrap">
                         <table className="table">
                             <thead>
@@ -140,7 +163,7 @@ export default function WangHaoPageJA() {
                                         {r.map((cell: any, cidx: number) => (
                                             <td key={cidx}>
                                                 {cell && typeof cell === 'object' && 'href' in cell ? (
-                                                    <a href={cell.href} target="_blank" rel="noopener noreferrer">{cell.text}</a>
+                                                    <a href={cell.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-primary)' }}>{cell.text}</a>
                                                 ) : (
                                                     cell
                                                 )}
@@ -156,7 +179,7 @@ export default function WangHaoPageJA() {
 
             <footer className="site-footer">
                 <div className="container">
-                    <p>{t.footer.replace('{year}', String(new Date().getFullYear()))}</p>
+                    <p>© {new Date().getFullYear()} H!NT Lab. All rights reserved.</p>
                 </div>
             </footer>
 
@@ -172,4 +195,3 @@ export default function WangHaoPageJA() {
         </main>
     );
 }
-

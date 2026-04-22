@@ -15,7 +15,7 @@
     },
     "hero": {
         "title": "H!NT Lab",
-        "subtitle": "Human-Computer Interaction · Natural Language Understanding · Human-Computer Collaborative Cognition",
+        "subtitle": "Document Understanding · Human-Computer Interaction · Collaborative Cognition",
         "ctaLearn": "Learn More",
         "ctaEmail": "Email"
     },
@@ -26,22 +26,22 @@
         "researchIntro": "Our research centers on three core areas:",
         "areas": [
             {
-                "icon": "Brain",
-                "title": "Human-AI Cognitive Collaboration",
-                "description": "Exploring synergistic mechanisms between human cognition and AI"
+                "icon": "FileText",
+                "title": "Document Understanding",
+                "description": "Deep research on multimodal document understanding, generation, and intelligent analysis"
             },
             {
                 "icon": "Lightbulb",
                 "title": "Human-Computer Interaction",
-                "description": "Developing more natural and efficient interaction technologies"
+                "description": "Developing more natural and efficient interaction technologies and human-AI collaboration systems"
             },
             {
-                "icon": "FileText",
-                "title": "Natural Language Understanding",
-                "description": "Deep research on language understanding and generation"
+                "icon": "Brain",
+                "title": "Collaborative Cognition",
+                "description": "Exploring synergistic mechanisms between human cognition and AI in complex tasks"
             }
         ],
-        "synergy": "These three directions mutually support and synergistically develop: deep natural language understanding provides more natural communication methods for human-computer interaction, advanced interaction technologies make human-AI cognitive collaboration more efficient, and cognitive collaboration research in turn guides and optimizes language understanding and interaction design."
+        "synergy": "These three directions mutually support and synergistically develop: document understanding provides the core information processing capability, advanced interaction technologies facilitate smoother communication, and collaborative cognition research fundamentally optimizes the overall intelligence of human-AI symbiotic systems."
     },
     "about": {
         "title": "About",

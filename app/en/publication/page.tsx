@@ -1,50 +1,17 @@
-import Link from 'next/link';
-import pubs from '../../../data/publications.json';
-
-type Pub = typeof pubs[number];
+import PublicationPage from '../../components/PublicationPage';
 
 export default function PublicationEN() {
-    return (
-        <main>
-            <section className="section">
-                <div className="container">
-                    <h1 className="section-title">Publications</h1>
-                    {(() => {
-                        const byYear: Record<string, Pub[]> = {};
-                        pubs.forEach((e: Pub) => {
-                            const y = String(e.year || 'Others');
-                            (byYear[y] ||= []).push(e);
-                        });
-                        const years = Object.keys(byYear).sort((a, b) => Number(b) - Number(a));
-                        return years.map((year) => (
-                            <div key={year} style={{ marginBottom: 24 }}>
-                                <h2 className="section-title">{year}</h2>
-                                <ul className="list">
-                                    {byYear[year].map((e) => (
-                                        <li key={e.id}>
-                                            <strong>{e.abbr ? `[${e.abbr}] ` : ''}{e.title}</strong>
-                                            <div style={{ color: '#6b7280' }}>
-                                                {Array.isArray(e.authors) ? e.authors.join(', ') : ''} · {(e as any).journal || (e as any).booktitle || ''}
-                                                {e.pages ? ` · ${e.pages}` : ''}
-                                            </div>
-                                            {(e as any).html ? (
-                                                <div><a href={(e as any).html} target="_blank" rel="noopener noreferrer">PDF</a></div>
-                                            ) : (e as any).url ? (
-                                                <div><a href={(e as any).url} target="_blank" rel="noopener noreferrer">Link</a></div>
-                                            ) : e.doi ? (
-                                                <div><a href={e.doi} target="_blank" rel="noopener noreferrer">DOI</a></div>
-                                            ) : null}
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        ));
-                    })()}
-                    <p style={{ marginTop: 16 }}><Link href="/en">Back to Home</Link></p>
-                </div>
-            </section>
-        </main>
-    );
+  return (
+    <PublicationPage
+      title="Publications"
+      summary="A year-organized list of representative papers and conference output from the lab."
+      homeHref="/en"
+      homeLabel="Back to Home"
+      emptyYearLabel="Others"
+      pdfLabel="PDF"
+      urlLabel="Link"
+      doiLabel="DOI"
+      allYearsLabel="All Years"
+    />
+  );
 }
-
-

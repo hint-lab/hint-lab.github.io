@@ -12,11 +12,11 @@
         "students": "在读研究生",
         "students-mem": "在读研究生（非全日）",
         "alumni": "往届毕业生",
-        "contact": "联系"
+        "contact": "联系我们"
     },
     "hero": {
         "title": "H!NT 实验室",
-        "subtitle": "人机交互 · 自然语言理解 · 人机协同认知",
+        "subtitle": "文档理解 · 人机交互 · 协同认知",
         "ctaLearn": "了解我们",
         "ctaEmail": "邮件联系"
     },
@@ -27,22 +27,22 @@
         "researchIntro": "我们的研究围绕三个核心领域展开：",
         "areas": [
             {
-                "icon": "Brain",
-                "title": "人机认知协同",
-                "description": "探索人类认知与人工智能的协同机制"
+                "icon": "FileText",
+                "title": "文档理解",
+                "description": "深入研究多模态文档的理解、生成与智能分析技术"
             },
             {
                 "icon": "Lightbulb",
                 "title": "人机交互",
-                "description": "开发更自然高效的交互技术与系统"
+                "description": "开发更自然高效的交互技术与人机协同系统"
             },
             {
-                "icon": "FileText",
-                "title": "自然语言理解",
-                "description": "深入研究语言的理解与生成技术"
+                "icon": "Brain",
+                "title": "协同认知",
+                "description": "探索人类认知与人工智能在复杂任务中的协同机制"
             }
         ],
-        "synergy": "这三个方向相互支撑、协同发展：深度的自然语言理解为人机交互提供更自然的沟通方式，先进的交互技术使人机认知协同更加高效，而认知协同研究又反过来指导和优化语言理解与交互设计。"
+        "synergy": "这三个方向相互支撑、协同发展：文档理解为系统提供核心的信息处理能力，先进的交互技术使人机沟通更加顺畅，而协同认知研究则从根本上优化了人机共生系统的整体智能。"
     },
     "about": {
         "title": "个人简介",
@@ -297,8 +297,8 @@
         ]
     },
     "contact": {
-        "title": "联系",
-        "emailLabel": "EMAIL",
+        "title": "联系我们",
+        "emailLabel": "联系邮箱",
         "email": "wang-hao@shu.edu.cn"
     },
     "publications": {
@@ -314,5 +314,5 @@
             }
         ]
     },
-    "footer": "© {year} H!NT Lab. All rights reserved."
+    "footer": "© {year} H!NT Lab. 保留所有权利。"
 }

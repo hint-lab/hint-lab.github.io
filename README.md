@@ -135,7 +135,7 @@ Edit the student/alumni tables in the i18n files under the `students` or `alumni
 ### Contact
 
 - **Email**: wang-hao@shu.edu.cn
-- **Website**: https://hint-lab.github.io/
+- **Website**: https://hintlab.cn/
 
 ---
 
@@ -270,5 +270,4 @@ hint-lab.github.io/
 ### 联系方式
 
 - **邮箱**: wang-hao@shu.edu.cn
-- **网站**: https://hint-lab.github.io/
-
+- **网站**: https://hintlab.cn/

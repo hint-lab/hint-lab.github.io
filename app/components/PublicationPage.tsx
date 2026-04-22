@@ -1,0 +1,99 @@
+import Link from 'next/link';
+import pubs from '../../data/publications.json';
+
+type Pub = typeof pubs[number];
+
+type PublicationPageProps = {
+  title: string;
+  summary: string;
+  homeHref: string;
+  homeLabel: string;
+  emptyYearLabel: string;
+  pdfLabel: string;
+  urlLabel: string;
+  doiLabel: string;
+  allYearsLabel: string;
+};
+
+function buildMeta(entry: Pub): string {
+  const authors = Array.isArray(entry.authors) ? entry.authors.join(', ') : '';
+  const venue = (entry as any).journal || (entry as any).booktitle || '';
+  const parts = [authors, venue].filter(Boolean);
+  return parts.join(' · ');
+}
+
+export default function PublicationPage({
+  title,
+  summary,
+  homeHref,
+  homeLabel,
+  emptyYearLabel,
+  pdfLabel,
+  urlLabel,
+  doiLabel,
+  allYearsLabel,
+}: PublicationPageProps) {
+  const byYear: Record<string, Pub[]> = {};
+  pubs.forEach((entry: Pub) => {
+    const year = String(entry.year || emptyYearLabel);
+    (byYear[year] ||= []).push(entry);
+  });
+  const years = Object.keys(byYear).sort((a, b) => Number(b) - Number(a));
+
+  return (
+    <main className="page-shell">
+      <section className="section publication-page">
+        <div className="container">
+          <header className="publication-header">
+            <div>
+              <p className="publication-kicker">{allYearsLabel}</p>
+              <h1 className="publication-title">{title}</h1>
+              <p className="publication-summary">{summary}</p>
+            </div>
+            <Link href={homeHref} className="publication-link">
+              {homeLabel}
+            </Link>
+          </header>
+
+          <div className="publication-groups">
+            {years.map((year) => (
+              <section key={year} className="publication-group">
+                <div className="publication-year-rail">
+                  <h2 className="publication-year">{year}</h2>
+                </div>
+                <ul className="publication-list">
+                  {byYear[year].map((entry) => (
+                    <li key={`${year}-${entry.id}`} className="publication-card">
+                      <div className="publication-main">
+                        <div className="publication-badge">
+                          {entry.abbr || ((entry as any).journal || (entry as any).booktitle || 'Paper').split(' ')[0]}
+                        </div>
+                        <h3 className="publication-card-title">{entry.title}</h3>
+                        <p className="publication-card-meta">{buildMeta(entry)}</p>
+                      </div>
+                      <div className="publication-actions">
+                        {(entry as any).html ? (
+                          <a href={(entry as any).html} target="_blank" rel="noopener noreferrer" className="publication-link">
+                            {pdfLabel}
+                          </a>
+                        ) : (entry as any).url ? (
+                          <a href={(entry as any).url} target="_blank" rel="noopener noreferrer" className="publication-link">
+                            {urlLabel}
+                          </a>
+                        ) : entry.doi ? (
+                          <a href={entry.doi} target="_blank" rel="noopener noreferrer" className="publication-link">
+                            {doiLabel}
+                          </a>
+                        ) : null}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            ))}
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
