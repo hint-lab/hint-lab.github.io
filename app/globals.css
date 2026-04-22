@@ -956,70 +956,49 @@ img {
   letter-spacing: 0.02em;
 }
 
-/* Floating Side TOC */
+/* Floating Side TOC - Minimalist */
 .side-toc {
   position: fixed;
-  right: 28px;
+  right: 48px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 90;
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  padding: 12px 10px;
-  background: rgba(255, 255, 255, 0.82);
-  border: 1px solid var(--color-border);
-  border-radius: 999px;
-  box-shadow: var(--shadow-sm);
-  -webkit-backdrop-filter: blur(12px);
-  backdrop-filter: blur(12px);
+  border-right: 1px solid var(--color-border);
 }
 
 .side-toc a {
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 14px;
-  border-radius: 999px;
   font-size: 13px;
   font-weight: 500;
   color: var(--color-muted);
-  white-space: nowrap;
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease,
-    transform 0.2s ease;
+  text-align: right;
+  padding: 10px 24px;
+  position: relative;
+  transition: color 0.2s ease;
 }
 
-.side-toc a::before {
-  content: "";
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: currentColor;
-  opacity: 0.35;
-  transition: all 0.2s ease;
+.side-toc a::after {
+  content: '';
+  position: absolute;
+  right: -1px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: transparent;
+  transition: background-color 0.2s ease;
 }
 
 .side-toc a:hover {
   color: var(--color-text);
-  background: rgba(0, 0, 0, 0.04);
-}
-
-.side-toc a:hover::before {
-  opacity: 0.7;
-  transform: scale(1.15);
 }
 
 .side-toc a[aria-current="page"] {
-  color: #ffffff;
-  background: var(--color-text);
+  color: var(--color-text);
 }
 
-.side-toc a[aria-current="page"]::before {
-  opacity: 1;
-  background: #ffffff;
+.side-toc a[aria-current="page"]::after {
+  background: var(--color-text);
 }
 
 @media (max-width: 1024px) {
