@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import LangSwitch from '../../../components/LangSwitch';
 import SideToc from '../../../components/SideToc';
 import { getDict } from '../../../lib/i18n';
 import Image from 'next/image';
@@ -40,11 +41,7 @@ export default function WangHaoPageEN() {
                         <a href="/en#contact">{t.nav.contact}</a>
                     </nav>
                     <div className="header-actions">
-                        <div className="lang-switch">
-                            <Link href="/people/wang_hao">中文</Link>
-                            <span style={{ margin: '0 8px', opacity: 0.3 }}>/</span>
-                            <Link href="/people/wang_hao/en" style={{ fontWeight: '600' }}>EN</Link>
-                        </div>
+                        <LangSwitch scope="about" />
                     </div>
                 </div>
             </header>

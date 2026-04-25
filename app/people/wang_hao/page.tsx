@@ -41,11 +41,7 @@ export default function WangHaoPage() {
                         <a href="/#contact">{t.nav.contact}</a>
                     </nav>
                     <div className="header-actions">
-                        <div className="lang-switch">
-                            <Link href="/people/wang_hao" style={{ fontWeight: '600' }}>中文</Link>
-                            <span style={{ margin: '0 8px', opacity: 0.3 }}>/</span>
-                            <Link href="/people/wang_hao/en">EN</Link>
-                        </div>
+                        <LangSwitch scope="about" />
                     </div>
                 </div>
             </header>

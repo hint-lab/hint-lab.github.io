@@ -5,10 +5,23 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 import { ChevronDown } from 'lucide-react';
-export default function LangSwitch() {
+
+type LangSwitchProps = {
+    /** 站点导航（首页等）或「个人简介」同页三语切换 */
+    scope?: 'site' | 'about';
+};
+
+export default function LangSwitch({ scope = 'site' }: LangSwitchProps) {
     const pathname = usePathname();
-    const current = pathname.startsWith('/en') ? 'en' : pathname.startsWith('/ja') ? 'ja' : 'zh';
-    const routes = { zh: '/', en: '/en', ja: '/ja' } as const;
+
+    const isAbout = scope === 'about';
+    const routes = isAbout
+        ? ({ zh: '/people/wang_hao', en: '/people/wang_hao/en', ja: '/people/wang_hao/ja' } as const)
+        : ({ zh: '/', en: '/en', ja: '/ja' } as const);
+
+    const current: 'zh' | 'en' | 'ja' = isAbout
+        ? (pathname.startsWith('/people/wang_hao/ja') ? 'ja' : pathname.startsWith('/people/wang_hao/en') ? 'en' : 'zh')
+        : (pathname.startsWith('/en') ? 'en' : pathname.startsWith('/ja') ? 'ja' : 'zh');
 
     const [open, setOpen] = useState(false);
     const btnRef = useRef<HTMLButtonElement | null>(null);

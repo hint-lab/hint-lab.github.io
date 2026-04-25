@@ -13,6 +13,21 @@
     "year": 2026
   },
   {
+    "id": "qi2026babeldoc",
+    "type": "inproceedings",
+    "title": "BabelDOC: Better Layout-Preserving PDF Translation via Intermediate Representation",
+    "authors": [
+      "Yang, Qi",
+      "Ma, Xiangyao",
+      "Wang, Xiao",
+      "Wang, Hao",
+      "Wang, Rui"
+    ],
+    "abbr": "ACL",
+    "booktitle": "In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics: System Demonstrations (ACL, CCF-A)",
+    "year": 2026
+  },
+  {
     "id": "chen2026moe-textdiffuser",
     "type": "journal",
     "title": "HeterMV: Multi-view reasoning over source-aware heterogeneous evidence graph for multi-source fact verification",
