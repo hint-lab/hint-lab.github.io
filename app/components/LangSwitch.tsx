@@ -9,9 +9,11 @@ import { ChevronDown } from 'lucide-react';
 type LangSwitchProps = {
     /** 站点导航（首页等）或「个人简介」同页三语切换 */
     scope?: 'site' | 'about';
+    /** 'dark' = hero 深色背景, 'light' = 白色背景页面 */
+    theme?: 'dark' | 'light';
 };
 
-export default function LangSwitch({ scope = 'site' }: LangSwitchProps) {
+export default function LangSwitch({ scope = 'site', theme = 'dark' }: LangSwitchProps) {
     const pathname = usePathname();
 
     const isAbout = scope === 'about';
@@ -49,7 +51,7 @@ export default function LangSwitch({ scope = 'site' }: LangSwitchProps) {
     const currentLabel = current === 'zh' ? '中文' : current === 'en' ? 'EN' : '日本語';
 
     return (
-        <div className="lang-dropdown">
+        <div className={`lang-dropdown${theme === 'light' ? ' lang-dropdown-light' : ''}`}>
 
             <button ref={btnRef} className="btn btn-outline btn-inline" aria-haspopup="menu" aria-expanded={open} onClick={() => setOpen(v => !v)}>
                 <Image src="/language-svgrepo-com.svg" alt="H!NT Lab" width={20} height={20} />

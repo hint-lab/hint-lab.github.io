@@ -1,5 +1,8 @@
+'use client';
+
 import Link from 'next/link';
 import pubs from '../../data/publications.json';
+import LangSwitch from './LangSwitch';
 
 type Pub = typeof pubs[number];
 
@@ -13,6 +16,7 @@ type PublicationPageProps = {
   urlLabel: string;
   doiLabel: string;
   allYearsLabel: string;
+  langScope?: 'site' | 'about';
 };
 
 function buildMeta(entry: Pub): string {
@@ -32,6 +36,7 @@ export default function PublicationPage({
   urlLabel,
   doiLabel,
   allYearsLabel,
+  langScope = 'site',
 }: PublicationPageProps) {
   const byYear: Record<string, Pub[]> = {};
   pubs.forEach((entry: Pub) => {
@@ -42,6 +47,14 @@ export default function PublicationPage({
 
   return (
     <main className="page-shell">
+      <header className="site-header" style={{ position: 'sticky', background: '#fff', color: 'var(--color-text)', borderBottom: '1px solid var(--color-border)' }}>
+        <div className="container header-inner">
+          <div className="brand"><Link href={homeHref}>H!NT Lab</Link></div>
+          <div className="header-actions">
+            <LangSwitch scope={langScope} theme="light" />
+          </div>
+        </div>
+      </header>
       <section className="section publication-page">
         <div className="container">
           <header className="publication-header">

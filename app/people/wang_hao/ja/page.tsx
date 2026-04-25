@@ -41,7 +41,7 @@ export default function WangHaoPageJA() {
                         <a href="/ja#contact">{t.nav.contact}</a>
                     </nav>
                     <div className="header-actions">
-                        <LangSwitch scope="about" />
+                        <LangSwitch scope="about" theme="light" />
                     </div>
                 </div>
             </header>

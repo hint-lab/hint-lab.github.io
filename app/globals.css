@@ -195,6 +195,45 @@ img {
   color: #ffffff;
 }
 
+/* LangSwitch on light/white background pages */
+.lang-dropdown-light .btn-outline {
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid var(--color-border);
+  color: var(--color-text);
+}
+
+.lang-dropdown-light .btn-outline:hover {
+  background: rgba(0, 0, 0, 0.08);
+  border-color: var(--color-text);
+}
+
+.lang-dropdown-light .btn[aria-expanded="true"] {
+  background: rgba(0, 0, 0, 0.06);
+  border-color: var(--color-text);
+  box-shadow: var(--shadow-sm);
+}
+
+.lang-dropdown-light .lang-caret {
+  opacity: 0.6;
+}
+
+.lang-dropdown-light .lang-menu {
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.lang-dropdown-light .lang-menu a {
+  color: var(--color-text);
+}
+
+.lang-dropdown-light .lang-menu a:hover,
+.lang-dropdown-light .lang-menu a[aria-current="page"] {
+  background: var(--color-section-bg);
+  color: var(--color-text);
+}
+
 /* Hero Section */
 .hero {
   position: relative;
