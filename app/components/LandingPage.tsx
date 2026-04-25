@@ -1,8 +1,9 @@
 'use client';
 
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, Brain, FileText, Lightbulb, Mail } from 'lucide-react';
+import { ArrowRight, Brain, FileText, Lightbulb, Mail, Menu, X } from 'lucide-react';
 import LangSwitch from './LangSwitch';
 import SideToc from './SideToc';
 import type { Dict } from '../lib/i18n';
@@ -37,28 +38,38 @@ function SectionHeading({ kicker, title, summary }: { kicker?: string; title: st
 }
 
 export default function LandingPage({ t, aboutHref, publicationHref, locale }: LandingPageProps) {
+  const [menuOpen, setMenuOpen] = useState(false);
   // Display latest 4 publications on home
   const homePubs = pubs.slice(0, 4);
 
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <main className="page-shell">
-      <header className="site-header">
+      <header className={`site-header${menuOpen ? ' header-menu-open' : ''}`}>
         <div className="container header-inner">
           <div className="brand">
             <Link href="/">{t.brand}</Link>
           </div>
 
-          <nav className="nav">
-            <a href="#home" aria-current="page">{t.nav.home}</a>
-            <Link href={aboutHref}>{t.nav.about}</Link>
-            <a href="#research-areas">{t.labIntro.researchTitle}</a>
-            <a href="#projects">{t.nav.projects}</a>
-            <Link href={publicationHref}>{t.nav.publications}</Link>
-            <a href="#contact">{t.nav.contact}</a>
+          <nav className={`nav${menuOpen ? ' nav-open' : ''}`}>
+            <a href="#home" aria-current="page" onClick={closeMenu}>{t.nav.home}</a>
+            <Link href={aboutHref} onClick={closeMenu}>{t.nav.about}</Link>
+            <a href="#research-areas" onClick={closeMenu}>{t.labIntro.researchTitle}</a>
+            <a href="#projects" onClick={closeMenu}>{t.nav.projects}</a>
+            <Link href={publicationHref} onClick={closeMenu}>{t.nav.publications}</Link>
+            <a href="#contact" onClick={closeMenu}>{t.nav.contact}</a>
           </nav>
 
           <div className="header-actions">
             <LangSwitch />
+            <button
+              className="menu-toggle"
+              onClick={() => setMenuOpen(!menuOpen)}
+              aria-label="Toggle menu"
+            >
+              {menuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
           </div>
         </div>
       </header>

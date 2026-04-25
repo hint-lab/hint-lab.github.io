@@ -487,11 +487,255 @@ img {
   margin: 0;
 }
 
+/* Mobile Menu Toggle */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 8px;
+  z-index: 110;
+}
+
 @media (max-width: 720px) {
   .about-grid {
     grid-template-columns: 1fr;
     text-align: center;
     justify-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.95);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    z-index: 105;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+  }
+
+  .nav-open {
+    display: flex;
+  }
+
+  .nav-open a {
+    font-size: 22px;
+    opacity: 0.9;
+    padding: 12px 0;
+  }
+
+  .header-inner {
+    min-height: 60px;
+  }
+
+  .brand {
+    font-size: 20px;
+  }
+
+  /* Hero */
+  .hero {
+    min-height: auto;
+    height: 100svh;
+    min-height: 100svh;
+  }
+
+  .hero-content,
+  .hero-copy {
+    padding: 20px 16px;
+    border-radius: 14px;
+    margin-left: 0;
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 8vw, 3.2rem);
+  }
+
+  .hero-subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .hero-keywords {
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    margin-bottom: 20px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 32px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero-actions .btn {
+    justify-content: center;
+    padding: 14px 24px;
+    font-size: 15px;
+  }
+
+  /* Sections */
+  .section {
+    padding: 64px 0;
+  }
+
+  .section-head {
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+
+  .section-summary {
+    font-size: 15px;
+  }
+
+  /* Feature Grid */
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .feature-card {
+    padding: 28px 20px;
+  }
+
+  .feature-card h3 {
+    font-size: 17px;
+  }
+
+  .feature-card p {
+    font-size: 14px;
+  }
+
+  .feature-icon {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 16px;
+  }
+
+  /* Projects */
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .project-card {
+    gap: 20px;
+  }
+
+  .project-thumb {
+    width: 100px;
+    height: 100px;
+    padding: 16px;
+    font-size: 12px;
+  }
+
+  .project-content h3 {
+    font-size: 17px;
+  }
+
+  .project-content p {
+    font-size: 14px;
+  }
+
+  /* Publications */
+  .pub-item {
+    grid-template-columns: 48px 1fr 32px;
+    gap: 12px;
+    padding: 16px 0;
+  }
+
+  .pub-year {
+    font-size: 13px;
+  }
+
+  .pub-title {
+    font-size: 14px;
+  }
+
+  .pub-venue {
+    display: none;
+  }
+
+  .pub-item .card-arrow svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Contact */
+  .contact-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-panel-item {
+    padding: 32px 20px;
+    gap: 16px;
+  }
+
+  .contact-icon-box {
+    width: 64px;
+    height: 64px;
+  }
+
+  .contact-icon-box svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  .contact-text-box span,
+  .contact-text-box a {
+    font-size: 16px;
+  }
+
+  .contact-panel-divider {
+    width: 80%;
+    height: 1px;
+    margin: 0 auto;
+  }
+
+  /* Footer */
+  .site-footer {
+    padding: 40px 0;
+  }
+
+  .site-footer p {
+    font-size: 12px;
+  }
+
+  /* Container */
+  .container {
+    padding: 0 16px;
+  }
+
+  /* Callout */
+  .callout {
+    margin-top: 40px;
+    padding: 24px;
+    font-size: 15px;
   }
 }
 
@@ -714,6 +958,12 @@ img {
     height: 140px;
     font-size: 16px;
   }
+  .pub-item {
+    grid-template-columns: 60px 1fr 40px;
+  }
+  .pub-venue {
+    display: none;
+  }
 }
 
 /* Publication Page Styles - High End Academic */
@@ -918,28 +1168,6 @@ img {
   margin-top: 48px;
   display: flex;
   justify-content: center;
-}
-
-@media (max-width: 980px) {
-  .hero-copy,
-  .hero-content {
-    padding: 24px 24px;
-    margin-left: 0;
-  }
-  .pub-item {
-    grid-template-columns: 60px 1fr 40px;
-  }
-  .pub-venue {
-    display: none;
-  }
-}
-
-@media (max-width: 720px) {
-  .hero-copy,
-  .hero-content {
-    padding: 20px 16px;
-    border-radius: 16px;
-  }
 }
 
 .site-footer {
