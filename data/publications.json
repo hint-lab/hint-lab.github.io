@@ -1,17 +1,5 @@
 [
-  {
-    "id": "liu2026qalign-rag",
-    "type": "inproceedings",
-    "title": "QAlign-RAG: Causal-Aware Pseudo-Question Generation and Debate-Driven Verification for Medical RAG",
-    "authors": [
-      "Liu, Maolin",
-      "Yang, Qi",
-      "Wang, Hao"
-    ],
-    "abbr": "KSEM",
-    "booktitle": "In Proceedings of the 19th International Conference on Knowledge Science, Engineering and Management (KSEM, CCF-C)",
-    "year": 2026
-  },
+  
   {
     "id": "qi2026babeldoc",
     "type": "inproceedings",
@@ -25,6 +13,19 @@
     ],
     "abbr": "ACL",
     "booktitle": "In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics: System Demonstrations (ACL, CCF-A)",
+    "year": 2026
+  },
+  {
+    "id": "liu2026qalign-rag",
+    "type": "inproceedings",
+    "title": "QAlign-RAG: Causal-Aware Pseudo-Question Generation and Debate-Driven Verification for Medical RAG",
+    "authors": [
+      "Liu, Maolin",
+      "Yang, Qi",
+      "Wang, Hao"
+    ],
+    "abbr": "KSEM",
+    "booktitle": "In Proceedings of the 19th International Conference on Knowledge Science, Engineering and Management (KSEM, CCF-C)",
     "year": 2026
   },
   {
