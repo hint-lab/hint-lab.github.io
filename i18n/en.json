@@ -45,7 +45,7 @@
     },
     "about": {
         "title": "About",
-        "p1": "Dr. Hao Wang is an Associate Professor at Shanghai University, specializing in Artificial Intelligence (AI), Natural Language Processing (NLP), and Human-Computer Collaborative Cognition. Following a Ph.D. from Waseda University, Japan, and supported by a CSC scholarship, his professional experience includes roles at Microsoft Research Asia (MSRA), Toshiba, and NTT, providing him with a unique international perspective on R&D. Dr. Wang is a Principal Investigator of the National Natural Science Foundation of China (NSFC) and has published over 30 conference and journal papers in top-tier AI venues like CogSci, COLING, and EMNLP. Crucially, he is currently serving as a seconded Deputy Director at the Putuo District Data Bureau in Shanghai, actively bridging his academic research—particularly in developing intelligent OS-Level and context-aware agents—with Smart Governance and practical public administration solutions",
+        "p1": "Dr. Hao Wang is Lecturer (2019–2024) and, since 2024, Associate Professor in the Department of Intelligence Science and Technology, Shanghai University. He is currently seconded as Deputy Director of the Putuo District Data Bureau / Administrative Approval Service Center, Shanghai. He was supported by a China Scholarship Council (CSC) doctoral fellowship and received his M.Sc. (2014) and Ph.D. (2019) from Waseda University, Japan. He has worked at Microsoft Research Asia, Toshiba Global R&D, and NTT Communication Science Laboratories. He has published more than 40 papers in international conferences and journals such as ACL, EMNLP, COLING, and CogSci, of which more than 30 appear in SCI/SSCI/A&HCI-indexed venues or CCF-recommended conferences. He has led the Shanghai Municipal Science and Technology Commission “Sailing Plan” project (completed), an NSFC Young Scientists Fund project (at the AI interdisciplinarity interface), and five industry collaborative projects; as a key member he has contributed to multiple NSFC major and general projects, the National Key R&D Program, and social-governance special projects. He is a long-term PC member and reviewer for top AI/NLP venues including ICLR, ICML, NeurIPS, ACL, EMNLP, and AAAI, and for journals such as TKDD, TNNLS, and NLE. His main research areas are artificial intelligence, human–AI collaborative cognition, and natural language processing (including medical documents).",
         "p2": "We primarily welcome students with NLP backgrounds, and also those from linguistics, cognitive science, and psychology. International students are also welcome. Please note that Shanghai University currently offers Chinese-taught courses only, so international applicants are expected to hold an HSK Level 5 certificate."
     },
     "profile": {
@@ -124,8 +124,8 @@
     "insights": {
         "title": "Insights",
         "quoteLines": [
-            "Having seen mountains and seas, and all joys and sorrows,",
-            "all beings are empty; people bustle for their own interests."
+            "Rigorous research that connects human–AI collaboration to real problems; scholarship knows no bounds—teach and learn together.",
+            "Seek truth, stay grounded, and go far with steady steps."
         ]
     },
     "students": {
