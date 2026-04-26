@@ -12,6 +12,12 @@ export default function PublicationZH() {
       urlLabel="访问链接"
       doiLabel="DOI 链接"
       allYearsLabel="全部年份"
+      filterAllLabel="全部"
+      filterDocLabel="文档理解"
+      filterHciLabel="人机交互"
+      filterCogLabel="协同认知"
+      filterSocialLabel="社会网络"
+      emptyCategoryLabel="该类别下暂无论文。"
     />
   );
 }

@@ -12,6 +12,12 @@ export default function PublicationEN() {
       urlLabel="Link"
       doiLabel="DOI"
       allYearsLabel="All Years"
+      filterAllLabel="All"
+      filterDocLabel="Document Understanding"
+      filterHciLabel="HCI"
+      filterCogLabel="Collaborative Cognition"
+      filterSocialLabel="Social Networks"
+      emptyCategoryLabel="No publications found in this category."
     />
   );
 }

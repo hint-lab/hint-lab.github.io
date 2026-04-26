@@ -1011,6 +1011,36 @@ img {
   background: var(--color-bg);
 }
 
+.publication-filters {
+  margin-bottom: 48px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 8px 20px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: transparent;
+  color: var(--color-text);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter-btn:hover {
+  border-color: var(--color-text);
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.filter-btn.active {
+  background: var(--color-text);
+  color: #fff;
+  border-color: var(--color-text);
+}
+
 .publication-header {
   display: flex;
   justify-content: space-between;
@@ -1268,8 +1298,10 @@ img {
   background: var(--color-text);
 }
 
-@media (max-width: 1024px) {
-  .side-toc {
-    display: none;
-  }
+.publication-empty {
+  text-align: center;
+  padding: 80px 0;
+  color: var(--color-muted);
+  font-size: 16px;
+  grid-column: 1 / -1;
 }

@@ -12,6 +12,12 @@ export default function PublicationJA() {
       urlLabel="リンク"
       doiLabel="DOI"
       allYearsLabel="全年度"
+      filterAllLabel="すべて"
+      filterDocLabel="文書理解"
+      filterHciLabel="人機交互"
+      filterCogLabel="協調認知"
+      filterSocialLabel="社会ネットワーク"
+      emptyCategoryLabel="このカテゴリーの論文は見つかりませんでした。"
     />
   );
 }
