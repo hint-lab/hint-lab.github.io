@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, Brain, FileText, Lightbulb, Mail, Menu, X } from 'lucide-react';
+import { ArrowRight, Brain, FileText, Lightbulb, Mail, Menu, Shield, X } from 'lucide-react';
 import LangSwitch from './LangSwitch';
 import SideToc from './SideToc';
 import type { Dict } from '../lib/i18n';
@@ -20,6 +20,7 @@ const iconMap: Record<string, any> = {
   Brain,
   Lightbulb,
   FileText,
+  Shield,
 };
 
 function SectionHeading({ kicker, title, summary }: { kicker?: string; title: string; summary: string }) {
@@ -121,12 +122,25 @@ export default function LandingPage({ t, aboutHref, publicationHref, locale }: L
             {t.labIntro.areas.map((area: any, idx: number) => {
               const IconComponent = iconMap[area.icon] || Brain;
               return (
-                <article key={idx} className="feature-card">
+                <article key={idx} className="feature-card" style={{ textAlign: 'left' }}>
                   <div className="feature-icon">
                     <IconComponent size={44} strokeWidth={1.5} />
                   </div>
                   <h3>{area.title}</h3>
-                  <p>{area.description}</p>
+                  {area.subtitle && (
+                    <p style={{ marginTop: 0, fontSize: 13, color: '#888', fontWeight: 400 }}>{area.subtitle}</p>
+                  )}
+                  <p style={{ textAlign: 'left' }}>{area.description}</p>
+                  {area.bullets && area.bullets.length > 0 && (
+                    <ul style={{ marginTop: 12, paddingLeft: 0, fontSize: 14, color: '#555', listStyleType: 'none' }}>
+                      {area.bullets.map((bullet: string, i: number) => (
+                        <li key={i} style={{ marginBottom: 6, paddingLeft: 16, textAlign: 'left', position: 'relative' }}>
+                          <span style={{ position: 'absolute', left: 0, color: '#2563eb' }}>▸</span>
+                          {bullet}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </article>
               );
             })}
@@ -254,6 +268,12 @@ export default function LandingPage({ t, aboutHref, publicationHref, locale }: L
       <footer className="site-footer">
         <div className="container">
           <p>© {new Date().getFullYear()} H!NT Lab · Shanghai University · 保留所有权利。</p>
+          <p style={{ marginTop: '8px', fontSize: '12px', display: 'flex', alignItems: 'center', gap: '8px', justifyContent: 'center' }}>
+            <img src="/beian.png" alt="beian" style={{ height: '16px' }} />
+            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style={{ color: '#666' }}>
+              沪ICP备2025152739号-2
+            </a>
+          </p>
         </div>
       </footer>
 

@@ -1,5 +1,21 @@
 [
   {
+    "id": "liu2026deepmed",
+    "type": "inproceedings",
+    "title": "DeepMed Search: An Open-Source Agentic Platform for Medical Deep Research with Introspective Verification",
+    "authors": [
+      "Liu, Maolin",
+      "Xu, Fanyu",
+      "Xu, Ruoqing",
+      "Zhang, Jiahang",
+      "Wang, Hao*",
+      "Wang, Rui"
+    ],
+    "abbr": "IJCAI",
+    "booktitle": "The 35th International Joint Conference on Artificial Intelligence, Demonstrations Track (IJCAI-ECAI 2026, CCF-B)",
+    "year": 2026
+  },
+  {
     "id": "qi2026babeldoc",
     "type": "inproceedings",
     "title": "BabelDOC: Better Layout-Preserving PDF Translation via Intermediate Representation",
@@ -23,7 +39,17 @@
     "id": "gu2026hetermv",
     "type": "journal",
     "title": "HeterMV: Multi-view reasoning over source-aware heterogeneous evidence graph for multi-source fact verification",
+<<<<<<< HEAD
     "authors": ["Gu, Junnan", "Li, Weimin*", "Liu, Fangfang", "Liu, Wei", "Hao, Wang"],
+=======
+    "authors": [
+      "Gu, Junnan",
+      "Li, Weimin*",
+      "Liu, Fangfang",
+      "Liu, Wei",
+      "Wang, Hao"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "IPM",
     "booktitle": "Information Processing & Management (SCI Q1/SSCI Q1) [CCF-B]",
     "year": 2026,
@@ -33,7 +59,15 @@
     "id": "chen2026moe-textdiffuser",
     "type": "journal",
     "title": "MoE-TextDiffuser: Fine-grained control of font and color in visual text rendering",
+<<<<<<< HEAD
     "authors": ["Chen, Bin", "Liu, Maolin", "Hao, Wang*"],
+=======
+    "authors": [
+      "Chen, Bin",
+      "Liu, Maolin",
+      "Wang, Hao*"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "NEUCO",
     "booktitle": "Neurocomputing (SCI Q2) [CCF-C]",
     "year": 2026,
@@ -113,7 +147,22 @@
     "id": "WANG2025125407",
     "type": "article",
     "title": "Exploring multi-granularity contextual semantics for fully inductive knowledge graph completion",
+<<<<<<< HEAD
     "authors": ["Jingchao Wang", "Weimin Li", "Alex Munyole Luvembe", "Xiao Yu", "Xinyi Zhang", "Fangyu Liu", "Fangfang Liu", "Hao Wang", "Zhenhai Wang", "Qun Jin"],
+=======
+    "authors": [
+      "Jingchao Wang",
+      "Weimin Li",
+      "Alex Munyole Luvembe",
+      "Xiao Yu",
+      "Xinyi Zhang",
+      "Fangyu Liu",
+      "Fangfang Liu",
+      "Wang, Hao",
+      "Zhenhai Wang",
+      "Qun Jin"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "ESWA",
     "journal": "Expert Systems with Applications (SCI Q1) [CCF-C]",
     "year": 2025,
@@ -123,7 +172,15 @@
     "id": "DBLP:journals/concurrency/QinWL24",
     "type": "article",
     "title": "Open-domain event schema induction via weighted attentive hypergraph neural network",
+<<<<<<< HEAD
     "authors": ["Wei Qin", "Hao Wang", "Xiangfeng Luo"],
+=======
+    "authors": [
+      "Wei Qin",
+      "Wang, Hao",
+      "Xiangfeng Luo"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "CCPE",
     "journal": "Concurr. Comput. Pract. Exp. (SCI) [CCF-C]",
     "year": 2024,
@@ -143,7 +200,15 @@
     "id": "DBLP:journals/ijseke/GuLW23",
     "type": "article",
     "title": "Enhancing Answer Selection via Ad-Hoc Knowledge Extraction from Unstructured Web Texts",
+<<<<<<< HEAD
     "authors": ["Shengwei Gu", "Xiangfeng Luo", "Hao Wang"],
+=======
+    "authors": [
+      "Shengwei Gu",
+      "Xiangfeng Luo",
+      "Wang, Hao"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "JSEKE",
     "journal": "Int. J. Softw. Eng. Knowl. Eng. (SCI) [CCF-C]",
     "year": 2023,
@@ -183,7 +248,16 @@
     "id": "Su2023AnEN",
     "type": "article",
     "title": "An end-to-end neural framework using coarse-to-fine-grained attention for overlapping relational triple extraction",
+<<<<<<< HEAD
     "authors": ["Su, H.", "H. Wang", "X. Luo", "S. Xie"],
+=======
+    "authors": [
+      "Su, H.",
+      "Wang, Hao",
+      "X. Luo",
+      "S. Xie"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "NLE",
     "journal": "Natural Language Engineering (SCI/A&HCI/SSCI Q1)",
     "year": 2023,
@@ -203,7 +277,16 @@
     "id": "Wang2022AnES",
     "type": "article",
     "title": "An empirical study of incorporating syntactic constraints into BERT-based location metonymy resolution",
+<<<<<<< HEAD
     "authors": ["H. Wang", "S. Du", "X. Zheng", "L. Meng"],
+=======
+    "authors": [
+      "Wang, Hao",
+      "S. Du",
+      "X. Zheng",
+      "L. Meng"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "NLE",
     "journal": "Natural Language Engineering (SCI/A&HCI/SSCI Q1)",
     "year": 2022,
@@ -213,7 +296,15 @@
     "id": "Zhang2022DualVIEDG",
     "type": "inproceedings",
     "title": "Dual-VIE: dual-level graph attention network for visual information extraction",
+<<<<<<< HEAD
     "authors": ["J. Zhang", "H. Wang", "X. Luo"],
+=======
+    "authors": [
+      "J. Zhang",
+      "Wang, Hao",
+      "X. Luo"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "PRICAI",
     "booktitle": "The 19th Pacific Rim International Conference on Artificial Intelligence [CCF-C]",
     "year": 2022,
@@ -223,7 +314,17 @@
     "id": "Jiang2021MIFASMH",
     "type": "article",
     "title": "MIFAS: multi‐source heterogeneous information fusion with adaptive importance sampling for link prediction",
+<<<<<<< HEAD
     "authors": ["T. Jiang", "H. Wang", "X. Luo", "S. Xie", "J. Wang"],
+=======
+    "authors": [
+      "T. Jiang",
+      "Wang, Hao",
+      "X. Luo",
+      "S. Xie",
+      "J. Wang"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "ES",
     "journal": "Expert Systems (SCI) [CCF-C]",
     "year": 2021,
@@ -233,7 +334,16 @@
     "id": "Wang2021BackTP",
     "type": "inproceedings",
     "title": "Back to prior knowledge: joint event causality extraction via convolutional semantic infusion",
+<<<<<<< HEAD
     "authors": ["Z. Wang", "H. Wang", "X. Luo", "J. Gao"],
+=======
+    "authors": [
+      "Z. Wang",
+      "Wang, Hao",
+      "X. Luo",
+      "J. Gao"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "PAKDD",
     "booktitle": "Pacific-Asia Conference on Knowledge Discovery and Data Mining [CCF-C]",
     "year": 2021,
@@ -243,7 +353,16 @@
     "id": "Gao2021CausalEE",
     "type": "article",
     "title": "Causal event extraction using iterated dilated convolutions with semantic convolutional filters",
+<<<<<<< HEAD
     "authors": ["J. Gao", "X. Luo", "H. Wang", "Z. Wang"],
+=======
+    "authors": [
+      "J. Gao",
+      "X. Luo",
+      "Wang, Hao",
+      "Z. Wang"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "ICTAI",
     "journal": "The 33rd IEEE International Conference on Tools with Artificial Intelligence [CCF-C]",
     "year": 2021,
@@ -253,7 +372,15 @@
     "id": "Gao2021ChineseCE",
     "type": "article",
     "title": "Chinese causal event extraction using causality‐associated graph neural network",
+<<<<<<< HEAD
     "authors": ["J. Gao", "X. Luo", "H. Wang"],
+=======
+    "authors": [
+      "J. Gao",
+      "X. Luo",
+      "Wang, Hao"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "CCPE",
     "journal": "Concurrency and Computation: Practice and Experience (SCI) [CCF-C]",
     "year": 2021,
@@ -273,7 +400,15 @@
     "id": "Gao2020AnUF",
     "type": "article",
     "title": "An uncertain future: Predicting events using conditional event evolutionary graph",
+<<<<<<< HEAD
     "authors": ["J. Gao", "X. Luo", "H. Wang"],
+=======
+    "authors": [
+      "J. Gao",
+      "X. Luo",
+      "Wang, Hao"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "CCPE",
     "journal": "Concurrency and Computation: Practice and Experience (SCI)",
     "year": 2020,
@@ -283,7 +418,18 @@
     "id": "Gu2020ImprovingAS",
     "type": "article",
     "title": "Improving answer selection with global features",
+<<<<<<< HEAD
     "authors": ["S. Gu", "X. Luo", "H. Wang", "J. Huang", "Q. Wei", "S. Huang"],
+=======
+    "authors": [
+      "S. Gu",
+      "X. Luo",
+      "Wang, Hao",
+      "J. Huang",
+      "Q. Wei",
+      "S. Huang"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "ES",
     "journal": "Expert Systems (SCI Q2) [CCF-C]",
     "year": 2020,
@@ -293,7 +439,16 @@
     "id": "Pei2020OpenET",
     "type": "inproceedings",
     "title": "Open Event Trigger Recognition Using Distant Supervision with Hierarchical Self-attentive Neural Network",
+<<<<<<< HEAD
     "authors": ["X. Pei", "H. Wang", "X. Luo", "J. Gao"],
+=======
+    "authors": [
+      "X. Pei",
+      "Wang, Hao",
+      "X. Luo",
+      "J. Gao"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "ICONIP",
     "booktitle": "International Conference on Neural Information Processing [CCF-C]",
     "year": 2020,
@@ -303,7 +458,18 @@
     "id": "Huang2020ImprovingTR",
     "type": "article",
     "title": "Improving taxonomic relation learning via incorporating relation descriptions into word embeddings",
+<<<<<<< HEAD
     "authors": ["S. Huang", "X. Luo", "J. Huang", "H. Wang", "S. Gu", "Y. Guo"],
+=======
+    "authors": [
+      "S. Huang",
+      "X. Luo",
+      "J. Huang",
+      "Wang, Hao",
+      "S. Gu",
+      "Y. Guo"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "CCPE",
     "journal": "Concurrency and Computation: Practice and Experience (SCI)",
     "year": 2020,
@@ -313,7 +479,17 @@
     "id": "Gu2020AbstractCI",
     "type": "article",
     "title": "Abstract concept instantiation with context relevance measurement",
+<<<<<<< HEAD
     "authors": ["Shengwei Gu", "X. Luo", "H. Wang", "Jing Huang", "Subin Huang"],
+=======
+    "authors": [
+      "Shengwei Gu",
+      "X. Luo",
+      "Wang, Hao",
+      "Jing Huang",
+      "Subin Huang"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "JWE",
     "journal": "Journal of Web Engineering (SCI)",
     "year": 2020,
@@ -323,7 +499,15 @@
     "id": "Tao2019EnhancingRE",
     "type": "article",
     "title": "Enhancing relation extraction using syntactic indicators and sentential contexts",
+<<<<<<< HEAD
     "authors": ["Q. Tao", "X. Luo", "H. Wang"],
+=======
+    "authors": [
+      "Q. Tao",
+      "X. Luo",
+      "Wang, Hao"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "ICTAI",
     "journal": "The 31st IEEE International Conference on Tools with Artificial Intelligence [CCF-C]",
     "year": 2019,
@@ -333,7 +517,16 @@
     "id": "Zhou2019Multitask",
     "type": "inproceedings",
     "title": "Multi-task learning for relation extraction",
+<<<<<<< HEAD
     "authors": ["K. Zhou", "X. Luo", "H. Wang", "R. Xu"],
+=======
+    "authors": [
+      "K. Zhou",
+      "X. Luo",
+      "Wang, Hao",
+      "R. Xu"
+    ],
+>>>>>>> ed6f316 (Add Playwright dependency and update LandingPage component)
     "abbr": "ICTAI",
     "booktitle": "The 31st IEEE International Conference on Tools with Artificial Intelligence [CCF-C]",
     "year": 2019,

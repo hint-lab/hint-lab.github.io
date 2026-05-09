@@ -177,6 +177,12 @@ export default function WangHaoPageEN() {
             <footer className="site-footer">
                 <div className="container">
                     <p>© {new Date().getFullYear()} H!NT Lab. All rights reserved.</p>
+                    <p style={{ marginTop: '8px', fontSize: '12px', display: 'flex', alignItems: 'center', gap: '8px', justifyContent: 'center' }}>
+                        <img src="/beian.png" alt="beian" style={{ height: '16px' }} />
+                        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style={{ color: '#666' }}>
+                            沪ICP备2025152739号-2
+                        </a>
+                    </p>
                 </div>
             </footer>
 
