@@ -4,7 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'H!NT Lab | 实验室主页',
   description: '人工智能、人机协同认知、自然语言处理实验室主页',
-  icons: [{ rel: 'icon', url: 'favicon.svg' }],
+  icons: [{ rel: 'icon', url: '/favicon.svg' }],
   metadataBase: new URL('https://hintlab.cn')
 };
 
