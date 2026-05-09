@@ -271,15 +271,35 @@ export default function LandingPage({ t, aboutHref, publicationHref, locale }: L
         <div className="container">
           <SectionHeading title={t.expectations.title} />
           <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-            {t.expectations.paragraphs.map((p: string, idx: number) => (
-              <p key={idx} style={{
-                fontSize: '16px',
-                lineHeight: '1.85',
-                marginBottom: '16px',
-                color: idx >= t.expectations.paragraphs.length - 1 ? 'var(--color-primary)' : 'var(--color-text)',
-                fontWeight: idx >= t.expectations.paragraphs.length - 1 ? 600 : 400
-              }}>{p}</p>
-            ))}
+            {t.expectations.paragraphs.map((p: string, idx: number) => {
+              const isLast = idx === t.expectations.paragraphs.length - 1;
+              const isQuestion = idx >= t.expectations.paragraphs.length - 4 && idx < t.expectations.paragraphs.length - 1 && p.endsWith('？');
+              if (isQuestion) {
+                return (
+                  <p key={idx} style={{
+                    fontSize: '16px',
+                    lineHeight: '1.85',
+                    marginBottom: '8px',
+                    paddingLeft: '20px',
+                    color: 'var(--color-text)',
+                    position: 'relative'
+                  }}>
+                    <span style={{ position: 'absolute', left: 0, color: '#2563eb' }}>▸</span>
+                    {p}
+                  </p>
+                );
+              }
+              return (
+                <p key={idx} style={{
+                  fontSize: '16px',
+                  lineHeight: '1.85',
+                  marginBottom: isLast ? 0 : '16px',
+                  color: isLast ? 'var(--color-primary)' : 'var(--color-text)',
+                  fontWeight: isLast ? 600 : 400,
+                  marginTop: isQuestion ? '16px' : undefined
+                }}>{p}</p>
+              );
+            })}
           </div>
         </div>
       </section>
