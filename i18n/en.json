@@ -7,7 +7,7 @@
         "projects": "Projects",
         "courses": "Courses",
         "research": "Research",
-        "expectations": "Expectations",
+        "expectations": "Prospective Students",
         "insights": "Insights",
         "students": "Students",
         "alumni": "Alumni",
@@ -15,38 +15,38 @@
     },
     "hero": {
         "title": "H!NT Lab",
-        "subtitle": "Document Understanding · Human-Computer Interaction · Collaborative Cognition",
+        "subtitle": "Document Understanding · Human–Computer Interaction · Collaborative Cognition",
         "ctaLearn": "Learn More",
         "ctaEmail": "Email"
     },
     "labIntro": {
         "title": "H!NT Lab",
-        "p1": "H!NT Lab (Human-Intelligence iNTegration Lab) focuses on exploring cutting-edge technologies for the deep integration of human intelligence and machine intelligence, dedicated to building more natural, efficient, and intelligent human-AI collaboration systems.",
+        "p1": "H!NT Lab (Human-Intelligence iNTegration Lab) explores how human intelligence and machine intelligence can work together more deeply. Our goal is to build human–AI collaboration systems that are more natural, efficient, and genuinely useful.",
         "researchTitle": "Research Areas",
-        "researchIntro": "Our research centers on three core areas:",
+        "researchIntro": "Our research is organized around three closely connected areas:",
         "areas": [
             {
                 "icon": "FileText",
                 "title": "Document Understanding",
-                "description": "Deep research on multimodal document understanding, generation, and intelligent analysis"
+                "description": "Multimodal document understanding, generation, and intelligent analysis"
             },
             {
                 "icon": "Lightbulb",
-                "title": "Human-Computer Interaction",
-                "description": "Developing more natural and efficient interaction technologies and human-AI collaboration systems"
+                "title": "Human–Computer Interaction",
+                "description": "Natural, efficient interaction technologies and human–AI collaboration systems"
             },
             {
                 "icon": "Brain",
                 "title": "Collaborative Cognition",
-                "description": "Exploring synergistic mechanisms between human cognition and AI in complex tasks"
+                "description": "How human cognition and AI can complement each other in complex tasks"
             }
         ],
-        "synergy": "These three directions mutually support and synergistically develop: document understanding provides the core information processing capability, advanced interaction technologies facilitate smoother communication, and collaborative cognition research fundamentally optimizes the overall intelligence of human-AI symbiotic systems."
+        "synergy": "These three directions reinforce one another. Document understanding provides the foundation for information processing; interaction technologies make communication between humans and AI smoother; and collaborative cognition helps us rethink how human–AI systems can become more effective as a whole."
     },
     "about": {
         "title": "About",
-        "p1": "Dr. Hao Wang is Lecturer (2019–2024) and, since 2024, Associate Professor in the Department of Intelligence Science and Technology, Shanghai University. He is currently seconded as Deputy Director of the Putuo District Data Bureau / Administrative Approval Service Center, Shanghai. He was supported by a China Scholarship Council (CSC) doctoral fellowship and received his M.Sc. (2014) and Ph.D. (2019) from Waseda University, Japan. He has worked at Microsoft Research Asia, Toshiba Global R&D, and NTT Communication Science Laboratories. He has published more than 40 papers in international conferences and journals such as ACL, EMNLP, COLING, and CogSci, of which more than 30 appear in SCI/SSCI/A&HCI-indexed venues or CCF-recommended conferences. He has led the Shanghai Municipal Science and Technology Commission “Sailing Plan” project (completed), an NSFC Young Scientists Fund project (at the AI interdisciplinarity interface), and five industry collaborative projects; as a key member he has contributed to multiple NSFC major and general projects, the National Key R&D Program, and social-governance special projects. He is a long-term PC member and reviewer for top AI/NLP venues including ICLR, ICML, NeurIPS, ACL, EMNLP, and AAAI, and for journals such as TKDD, TNNLS, and NLE. His main research areas are artificial intelligence, human–AI collaborative cognition, and natural language processing (including medical documents).",
-        "p2": "We primarily welcome students with NLP backgrounds, and also those from linguistics, cognitive science, and psychology. International students are also welcome. Please note that Shanghai University currently offers Chinese-taught courses only, so international applicants are expected to hold an HSK Level 5 certificate."
+        "p1": "Dr. Hao Wang served as a Lecturer in the Department of Intelligence Science and Technology at Shanghai University from 2019 to 2024, and has been an Associate Professor since 2024. He is currently seconded to the Putuo District Data Bureau / Administrative Approval Service Center in Shanghai, where he serves as Deputy Director. He received a doctoral fellowship from the China Scholarship Council and earned his M.Sc. (2014) and Ph.D. (2019) from Waseda University, Japan. He has worked at Microsoft Research Asia, Toshiba Global R&D, and NTT Communication Science Laboratories. He has published more than 40 papers in international conferences and journals, including ACL, EMNLP, COLING, and CogSci. More than 30 of these papers have appeared in SCI/SSCI/A&HCI-indexed venues or CCF-recommended conferences. He has led a completed Shanghai Municipal Science and Technology Commission Sailing Program project, an NSFC Young Scientists Fund project at the AI interdisciplinary interface, and five industry collaboration projects. As a key member, he has also contributed to several NSFC major and general projects, the National Key R&D Program, and special projects on social governance. He has served as a long-term PC member and reviewer for leading AI and NLP venues, including ICLR, ICML, NeurIPS, ACL, EMNLP, and AAAI, as well as journals such as TKDD, TNNLS, and NLE. His research interests include artificial intelligence, human–AI collaborative cognition, and natural language processing, with applications in medical and other high-stakes documents.",
+        "p2": "We welcome students with backgrounds in NLP, as well as students from linguistics, cognitive science, psychology, and related fields. International students are also welcome. Please note that Shanghai University currently offers Chinese-taught programs only, so international applicants are expected to hold an HSK Level 5 certificate."
     },
     "profile": {
         "name": "Hao WANG",
@@ -75,57 +75,63 @@
     "research": {
         "title": "Research",
         "bullets": [
-            "Human–Large-Model Collaborative Cognition (priority for female M.S. students)",
-            "Medical RAG Deep Reasoning (Document Agents, DeepSearch)"
+            "Human–LLM Collaborative Cognition (female M.S. applicants are especially welcome)",
+            "Deep Reasoning for Medical RAG (Document Agents, DeepSearch)"
         ],
-        "notePrefix": "Open positions (2–3). If interested,",
+        "notePrefix": "Open positions: 2–3. If you are interested, please",
         "contactCta": "contact us",
         "noteSuffix": "."
     },
     "projects": {
         "title": "Research Projects",
-        "subtitle": "Major research projects ongoing in our lab",
+        "subtitle": "Selected projects currently underway in our lab",
         "cards": [
             {
                 "name": "Deepling.tech",
-                "description": "An AI-powered tech commentary self-media with a distinct personality, fully automated and known for its sharp, witty tech reviews.",
+                "description": "An AI-powered technology commentary platform with a distinct voice, known for sharp, witty, and fully automated tech reviews.",
                 "logo": "/projects/deepling-logo.png",
                 "link": "https://www.deepling.tech"
             },
             {
                 "name": "DeepTrans Studio",
-                "description": "Professional deep translation studio. An AI-powered high-quality translation platform supporting intelligent translation and post-editing of multilingual documents.",
+                "description": "A professional AI-assisted translation platform for high-quality multilingual document translation and post-editing.",
                 "logo": "/projects/deeptrans-logo.svg",
                 "link": "https://www.deeptrans.studio"
             },
             {
                 "name": "DeepMed Search",
-                "description": "Intelligent medical literature retrieval system. Utilizing deep learning and knowledge graph technology to provide precise literature search and recommendation for medical researchers.",
+                "description": "An intelligent medical literature retrieval system that uses deep learning and knowledge graphs to support precise search and recommendation for medical researchers.",
                 "logo": "/projects/deepmed-logo.svg",
                 "link": "https://www.deepmedsearch.cloud"
             },
             {
                 "name": "ChineseLawTranslation",
-                "description": "Chinese law bilingual translation project. Building a high-quality Chinese-English legal terminology database to promote international dissemination of Chinese law.",
+                "description": "A Chinese–English legal translation project that builds high-quality legal terminology and translation resources to support the international communication of Chinese law.",
                 "logo": "/projects/chineselaw-logo.png",
                 "link": "https://www.chineselawtranslation.com"
             }
-            
         ]
     },
     "expectations": {
-        "title": "Expectations",
-        "list": [
-            "Proactive",
-            "First Things First",
-            "Begin with the End in Mind"
+        "title": "To Prospective Students",
+        "paragraphs": [
+            "Over the past year, I made 870 commits on GitHub.",
+            "At H!NT Lab, we care less about titles or polished resumes, and more about whether people are willing to do real work. Research and engineering are not built by talk alone. They take code, debugging, trial and error, and steady progress over time.",
+            "I do not judge students only by their background, major, or prior experience. You may have a weak foundation, come from a non-CS background, or have little experience at the beginning. What matters more to me is whether you are willing to learn, try things yourself, and take one concrete step forward when facing a real problem.",
+            "Your first code may be rough. Your first idea may be naive. That is fine. What I value is whether you have actually tried, whether you can explain what you did, where you got stuck, and how you plan to improve.",
+            "If you would like to contact me, please first read one of the projects on this page and briefly answer the following three questions in your email:",
+            "Which problem or direction interests you?",
+            "What do you think this project is trying to solve?",
+            "If you were to get involved, what small step would you try first? This could be a piece of code, a simple experiment, a literature review, or a concrete analysis.",
+            "There is no need for a long self-introduction or a generic statement of interest. I would rather see a small sign of real thinking and action.",
+            "Your starting point matters less than your willingness to act. I look forward to working with students who are ready to learn by doing and to build something meaningful together."
         ]
     },
     "insights": {
         "title": "Insights",
         "quoteLines": [
-            "Rigorous research that connects human–AI collaboration to real problems; scholarship knows no bounds—teach and learn together.",
-            "Seek truth, stay grounded, and go far with steady steps."
+            "Rigorous research, grounded in real problems and shaped by human–AI collaboration.",
+            "Seek truth, stay grounded, and move forward one step at a time."
         ]
     },
     "students": {
@@ -133,7 +139,7 @@
         "columns": [
             "Name",
             "Entry Year",
-            "Undergrad",
+            "Undergraduate Institution",
             "Note",
             "Research"
         ],
@@ -143,21 +149,21 @@
                 "2025",
                 "Southwest University",
                 "",
-                "VR/AR Human-Computer Interaction"
+                "VR/AR Human–Computer Interaction"
             ],
             [
                 "Jiahang Zhang",
                 "2025",
-                "Guangdong Ocean University ",
+                "Guangdong Ocean University",
                 "",
-                "Medical Deep Inference"
+                "Medical Deep Reasoning"
             ],
             [
                 "Huiwen Xiong",
                 "2025",
-                "Anhui University of Finance and Economics ",
+                "Anhui University of Finance and Economics",
                 "Recommended",
-                "Human-LLM Collaborative Cognition"
+                "Human–LLM Collaborative Cognition"
             ],
             [
                 "Feng Xue",
@@ -177,7 +183,7 @@
                 "IDLKAID MOHAMMED",
                 "2024",
                 "Sidi Mohamed Ben Abdellah University",
-                "International Student (Morocco)",
+                "International Student, Morocco",
                 "Interactive Medical RAG"
             ],
             [
@@ -201,7 +207,7 @@
         "columns": [
             "Name",
             "Year",
-            "Undergrad",
+            "Undergraduate Institution",
             "Destination",
             "Thesis",
             "Note"
@@ -213,7 +219,7 @@
                 "Shanghai University",
                 "COMAC, Shanghai",
                 {
-                    "text": "Master Thesis",
+                    "text": "Master's Thesis",
                     "href": "/thesis/chenbin.pdf"
                 },
                 "Recommended"
@@ -224,7 +230,7 @@
                 "China University of Petroleum",
                 "Meituan, Shanghai",
                 {
-                    "text": "Master Thesis",
+                    "text": "Master's Thesis",
                     "href": "/thesis/wangchangqing.pdf"
                 },
                 ""
@@ -235,7 +241,7 @@
                 "Northeast Petroleum University",
                 "China Telecom, Zhengzhou",
                 {
-                    "text": "Master Thesis",
+                    "text": "Master's Thesis",
                     "href": "/thesis/wangqingxuan.pdf"
                 },
                 "Recommended"
@@ -246,7 +252,7 @@
                 "Taiyuan University of Technology",
                 "China Telecom, Shanghai",
                 {
-                    "text": "Master Thesis",
+                    "text": "Master's Thesis",
                     "href": "/thesis/litang.pdf"
                 },
                 ""
@@ -257,7 +263,7 @@
                 "Nantong University",
                 "Zhongan Tech, Shanghai",
                 {
-                    "text": "Master Thesis",
+                    "text": "Master's Thesis",
                     "href": "/thesis/chenxiahua.pdf"
                 },
                 ""
@@ -268,7 +274,7 @@
                 "Zhengzhou University of Light Industry",
                 "China Unicom, Shanghai",
                 {
-                    "text": "Master Thesis",
+                    "text": "Master's Thesis",
                     "href": "/thesis/zhangjunwei.pdf"
                 },
                 "Transferred in Year 2"
@@ -279,7 +285,7 @@
                 "Shanghai University",
                 "ByteDance, Shenzhen",
                 {
-                    "text": "Master Thesis",
+                    "text": "Master's Thesis",
                     "href": "/thesis/taoxi.pdf"
                 },
                 ""
@@ -290,7 +296,7 @@
                 "Shanghai University of Engineering Science",
                 "SAP, Shanghai",
                 {
-                    "text": "Master Thesis",
+                    "text": "Master's Thesis",
                     "href": "/thesis/dusiyuan.pdf"
                 },
                 ""
@@ -299,7 +305,7 @@
     },
     "contact": {
         "title": "Contact",
-        "emailLabel": "EMAIL",
+        "emailLabel": "Email",
         "email": "wang-hao@shu.edu.cn"
     },
     "footer": "© {year} H!NT Lab. All rights reserved."

@@ -5,7 +5,7 @@ import Link from 'next/link';
 import pubs from '../../data/publications.json';
 import LangSwitch from './LangSwitch';
 
-type Pub = typeof pubs[number] & { areas?: string[] };
+type Pub = typeof pubs[number] & { areas?: string[]; doi?: string };
 
 type PublicationPageProps = {
   title: string;

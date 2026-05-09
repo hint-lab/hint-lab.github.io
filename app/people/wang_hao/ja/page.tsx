@@ -1,8 +1,8 @@
 'use client';
 
-import Link from 'next/link';
 import LangSwitch from '../../../components/LangSwitch';
 import SideToc from '../../../components/SideToc';
+import ContactModal from '../../../components/ContactModal';
 import { getDict } from '../../../lib/i18n';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
@@ -19,6 +19,7 @@ function SectionHeading({ title }: { title: string }) {
 export default function WangHaoPageJA() {
     const t = getDict('ja');
     const [scrolled, setScrolled] = useState(false);
+    const [showContactModal, setShowContactModal] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -58,7 +59,7 @@ export default function WangHaoPageJA() {
                                 {t.profile.lines.map((line: string, idx: number) => (<div key={idx}>{line}</div>))}
                             </div>
                             <div className="contact-email">
-                                <a href={`mailto:${t.contact.email}`}>{t.contact.email}</a>
+                                <a href="#" onClick={(e) => { e.preventDefault(); setShowContactModal(true); }}>{t.contact.email}</a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +96,7 @@ export default function WangHaoPageJA() {
                         {t.research.bullets.map((b, idx) => (<li key={idx}>{b}</li>))}
                     </ul>
                     <p style={{ marginTop: '24px', color: 'var(--color-muted)' }}>
-                        {t.research.notePrefix} <a href={`mailto:${t.contact.email}`} style={{ color: 'var(--color-primary)', fontWeight: '600' }}>{t.research.contactCta}</a> {t.research.noteSuffix}
+                        {t.research.notePrefix} <a href="#" onClick={(e) => { e.preventDefault(); setShowContactModal(true); }} style={{ color: 'var(--color-primary)', fontWeight: '600' }}>{t.research.contactCta}</a> {t.research.noteSuffix}
                     </p>
                 </div>
             </section>
@@ -103,9 +104,17 @@ export default function WangHaoPageJA() {
             <section id="expectations" className="section section-alt">
                 <div className="container">
                     <SectionHeading title={t.expectations.title} />
-                    <ul className="list">
-                        {t.expectations.list.map((b, idx) => (<li key={idx}>{b}</li>))}
-                    </ul>
+                    <div style={{ maxWidth: '800px' }}>
+                        {t.expectations.paragraphs.map((p: string, idx: number) => (
+                            <p key={idx} style={{
+                                fontSize: '16px',
+                                lineHeight: '1.85',
+                                marginBottom: '16px',
+                                color: idx >= t.expectations.paragraphs.length - 1 ? 'var(--color-primary)' : 'var(--color-text)',
+                                fontWeight: idx >= t.expectations.paragraphs.length - 1 ? 600 : 400
+                            }}>{p}</p>
+                        ))}
+                    </div>
                 </div>
             </section>
 
@@ -195,6 +204,13 @@ export default function WangHaoPageJA() {
                 { id: 'students', label: t.nav.students },
                 { id: 'alumni', label: t.nav.alumni }
             ]} />
+
+            {showContactModal && (
+                <ContactModal
+                    t={{ ...t.expectations, email: t.contact.email }}
+                    onClose={() => setShowContactModal(false)}
+                />
+            )}
         </main>
     );
 }

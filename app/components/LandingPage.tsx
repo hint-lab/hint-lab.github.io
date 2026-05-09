@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { ArrowRight, Brain, FileText, Lightbulb, Mail, Menu, Shield, X } from 'lucide-react';
 import LangSwitch from './LangSwitch';
 import SideToc from './SideToc';
+import ContactModal from './ContactModal';
 import type { Dict } from '../lib/i18n';
 import pubs from '../../data/publications.json';
 
@@ -40,6 +41,7 @@ function SectionHeading({ kicker, title, summary }: { kicker?: string; title: st
 
 export default function LandingPage({ t, aboutHref, publicationHref, locale }: LandingPageProps) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [showContactModal, setShowContactModal] = useState(false);
   // Display latest 4 publications on home
   const homePubs = pubs.slice(0, 4);
 
@@ -102,10 +104,10 @@ export default function LandingPage({ t, aboutHref, publicationHref, locale }: L
                 <span>{t.hero.ctaLearn}</span>
                 <ArrowRight size={18} />
               </a>
-              <a className="btn btn-outline" href={`mailto:${t.contact.email}`}>
+              <button className="btn btn-outline" onClick={() => setShowContactModal(true)}>
                 <span>{t.hero.ctaEmail}</span>
                 <Mail size={18} />
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -228,7 +230,7 @@ export default function LandingPage({ t, aboutHref, publicationHref, locale }: L
               </div>
               <div className="contact-text-box">
                 <label>{t.contact.emailLabel}</label>
-                <a href={`mailto:${t.contact.email}`}>{t.contact.email}</a>
+                <button onClick={() => setShowContactModal(true)} style={{ background: 'none', border: 'none', color: 'var(--color-primary)', cursor: 'pointer', fontSize: 'inherit', fontWeight: 500, textDecoration: 'underline', padding: 0 }}>{t.contact.email}</button>
               </div>
             </div>
 
@@ -285,6 +287,13 @@ export default function LandingPage({ t, aboutHref, publicationHref, locale }: L
           { id: 'contact', label: t.nav.contact },
         ]}
       />
+
+      {showContactModal && (
+        <ContactModal
+          t={{ ...t.expectations, email: t.contact.email }}
+          onClose={() => setShowContactModal(false)}
+        />
+      )}
     </main>
   );
 }
