@@ -24,7 +24,7 @@ const iconMap: Record<string, any> = {
   Shield,
 };
 
-function SectionHeading({ kicker, title, summary }: { kicker?: string; title: string; summary: string }) {
+function SectionHeading({ kicker, title, summary }: { kicker?: string; title: string; summary?: string }) {
   return (
     <div className="section-head">
       {kicker ? (
@@ -33,7 +33,7 @@ function SectionHeading({ kicker, title, summary }: { kicker?: string; title: st
         </p>
       ) : null}
       <h2 className="section-title">{title}</h2>
-      <p className="section-summary">{summary}</p>
+      {summary ? <p className="section-summary">{summary}</p> : null}
       <div className="section-line" />
     </div>
   );

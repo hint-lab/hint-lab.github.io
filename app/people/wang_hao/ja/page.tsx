@@ -1,6 +1,7 @@
 'use client';
 
 import LangSwitch from '../../../components/LangSwitch';
+import Link from 'next/link';
 import SideToc from '../../../components/SideToc';
 import ContactModal from '../../../components/ContactModal';
 import { getDict } from '../../../lib/i18n';
