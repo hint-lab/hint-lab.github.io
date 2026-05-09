@@ -267,6 +267,23 @@ export default function LandingPage({ t, aboutHref, publicationHref, locale }: L
         </div>
       </section>
 
+      <section id="expectations" className="section section-alt">
+        <div className="container">
+          <SectionHeading title={t.expectations.title} />
+          <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+            {t.expectations.paragraphs.map((p: string, idx: number) => (
+              <p key={idx} style={{
+                fontSize: '16px',
+                lineHeight: '1.85',
+                marginBottom: '16px',
+                color: idx >= t.expectations.paragraphs.length - 1 ? 'var(--color-primary)' : 'var(--color-text)',
+                fontWeight: idx >= t.expectations.paragraphs.length - 1 ? 600 : 400
+              }}>{p}</p>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <footer className="site-footer">
         <div className="container">
           <p>© {new Date().getFullYear()} H!NT Lab · Shanghai University · 保留所有权利。</p>
@@ -285,6 +302,7 @@ export default function LandingPage({ t, aboutHref, publicationHref, locale }: L
           { id: 'research-areas', label: t.labIntro.researchTitle },
           { id: 'projects', label: t.nav.projects },
           { id: 'contact', label: t.nav.contact },
+          { id: 'expectations', label: t.expectations.title },
         ]}
       />
 
