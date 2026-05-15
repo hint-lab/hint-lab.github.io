@@ -313,6 +313,12 @@ export default function LandingPage({ t, aboutHref, publicationHref, locale }: L
               沪ICP备2025152739号-2
             </a>
           </p>
+          <p style={{ marginTop: '4px', fontSize: '12px', display: 'flex', alignItems: 'center', gap: '8px', justifyContent: 'center' }}>
+            <img src="/gongan.png" alt="gongan" style={{ height: '16px' }} />
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702010261" target="_blank" rel="noopener noreferrer" style={{ color: '#666' }}>
+              沪公网安备31010702010261号
+            </a>
+          </p>
         </div>
       </footer>
 

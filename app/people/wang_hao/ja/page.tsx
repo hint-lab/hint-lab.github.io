@@ -102,23 +102,6 @@ export default function WangHaoPageJA() {
                 </div>
             </section>
 
-            <section id="expectations" className="section section-alt">
-                <div className="container">
-                    <SectionHeading title={t.expectations.title} />
-                    <div style={{ maxWidth: '800px' }}>
-                        {t.expectations.paragraphs.map((p: string, idx: number) => (
-                            <p key={idx} style={{
-                                fontSize: '16px',
-                                lineHeight: '1.85',
-                                marginBottom: '16px',
-                                color: idx >= t.expectations.paragraphs.length - 1 ? 'var(--color-primary)' : 'var(--color-text)',
-                                fontWeight: idx >= t.expectations.paragraphs.length - 1 ? 600 : 400
-                            }}>{p}</p>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
             <section id="insights" className="section">
                 <div className="container">
                     <SectionHeading title={t.insights.title} />
@@ -200,7 +183,6 @@ export default function WangHaoPageJA() {
                 { id: 'about', label: t.nav.about },
                 { id: 'courses', label: t.nav.courses },
                 { id: 'research', label: t.nav.research },
-                { id: 'expectations', label: t.nav.expectations },
                 { id: 'insights', label: t.nav.insights },
                 { id: 'students', label: t.nav.students },
                 { id: 'alumni', label: t.nav.alumni }
