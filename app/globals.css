@@ -731,23 +731,27 @@ img {
   }
 
   .contact-panel-item {
-    padding: 32px 20px;
+    padding: 24px 20px;
     gap: 16px;
   }
 
   .contact-icon-box {
-    width: 64px;
-    height: 64px;
+    width: 40px;
+    height: 40px;
   }
 
   .contact-icon-box svg {
-    width: 26px;
-    height: 26px;
+    width: 20px;
+    height: 20px;
   }
 
   .contact-text-box span,
   .contact-text-box a {
-    font-size: 16px;
+    font-size: 14px;
+  }
+
+  .contact-text-box {
+    text-align: left;
   }
 
   .contact-panel-divider {
@@ -758,11 +762,29 @@ img {
 
   /* Footer */
   .site-footer {
-    padding: 40px 0;
+    padding: 36px 0;
   }
 
-  .site-footer p {
+  .footer-brand {
     font-size: 12px;
+  }
+
+  .footer-links {
+    gap: 20px;
+  }
+
+  .footer-links a {
+    font-size: 12px;
+  }
+
+  .footer-beian {
+    flex-direction: column;
+    gap: 6px;
+    font-size: 11px;
+  }
+
+  .footer-beian-divider {
+    display: none;
   }
 
   /* Container */
@@ -789,12 +811,12 @@ img {
 }
 
 .contact-panel-item {
-  padding: 64px 40px;
+  padding: 32px 40px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   text-align: center;
-  gap: 24px;
+  gap: 20px;
   transition: background-color 0.3s ease;
 }
 
@@ -803,14 +825,15 @@ img {
 }
 
 .contact-icon-box {
-  width: 80px;
-  height: 80px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   background: var(--color-section-bg);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--color-text);
+  flex-shrink: 0;
   transition: all 0.3s ease;
 }
 
@@ -822,31 +845,43 @@ img {
 
 .contact-text-box label {
   display: block;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--color-muted);
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .contact-text-box span,
 .contact-text-box a {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--color-text);
   word-break: break-all;
 }
 
+.contact-text-box {
+  text-align: left;
+}
+
 .contact-panel-divider {
   width: 1px;
   background: var(--color-border);
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 @media (max-width: 840px) {
   .contact-panel {
     grid-template-columns: 1fr;
+  }
+  .contact-panel-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px 20px;
+  }
+  .contact-text-box {
+    text-align: center;
   }
   .contact-panel-divider {
     width: 80%;
@@ -1242,15 +1277,72 @@ img {
 .site-footer {
   background: #1d1d1f;
   color: #ffffff;
-  padding: 64px 0;
+  padding: 56px 0 48px;
   text-align: center;
 }
 
-.site-footer p {
+.site-footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-brand {
   font-size: 14px;
-  opacity: 0.5;
+  opacity: 0.4;
   margin: 0;
+  letter-spacing: 0.04em;
+}
+
+.footer-links {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+}
+
+.footer-links a {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration: none;
+  transition: color 0.2s;
   letter-spacing: 0.02em;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-beian {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.footer-beian a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255, 255, 255, 0.35);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-beian a:hover {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.footer-beian img {
+  height: 14px;
+  opacity: 0.6;
+}
+
+.footer-beian-divider {
+  opacity: 0.2;
+  font-size: 11px;
 }
 
 /* Floating Side TOC - Minimalist */

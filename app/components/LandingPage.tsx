@@ -226,7 +226,7 @@ export default function LandingPage({ t, aboutHref, publicationHref, locale }: L
           <div className="contact-panel">
             <div className="contact-panel-item">
               <div className="contact-icon-box">
-                <Mail size={32} strokeWidth={1.5} />
+                <Mail size={22} strokeWidth={1.5} />
               </div>
               <div className="contact-text-box">
                 <label>{t.contact.emailLabel}</label>
@@ -245,8 +245,8 @@ export default function LandingPage({ t, aboutHref, publicationHref, locale }: L
               <div className="contact-icon-box">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="32"
-                  height="32"
+                  width="22"
+                  height="22"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -306,19 +306,24 @@ export default function LandingPage({ t, aboutHref, publicationHref, locale }: L
 
       <footer className="site-footer">
         <div className="container">
-          <p>© {new Date().getFullYear()} H!NT Lab · Shanghai University · 保留所有权利。</p>
-          <p style={{ marginTop: '8px', fontSize: '12px', display: 'flex', alignItems: 'center', gap: '8px', justifyContent: 'center' }}>
-            <img src="/beian.png" alt="beian" style={{ height: '16px' }} />
-            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style={{ color: '#666' }}>
+          <p className="footer-brand">© {new Date().getFullYear()} H!NT Lab · Shanghai University</p>
+          <div className="footer-links">
+            <a href="#home">首页</a>
+            <a href="#research-areas">研究方向</a>
+            <a href="#projects">项目</a>
+            <a href="#contact">联系</a>
+          </div>
+          <div className="footer-beian">
+            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
+              <img src="/beian.png" alt="beian" />
               沪ICP备2025152739号-2
             </a>
-          </p>
-          <p style={{ marginTop: '4px', fontSize: '12px', display: 'flex', alignItems: 'center', gap: '8px', justifyContent: 'center' }}>
-            <img src="/gongan.png" alt="gongan" style={{ height: '16px' }} />
-            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702010261" target="_blank" rel="noopener noreferrer" style={{ color: '#666' }}>
+            <span className="footer-beian-divider">|</span>
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702010261" target="_blank" rel="noopener noreferrer">
+              <img src="/gongan.png" alt="gongan" />
               沪公网安备31010702010261号
             </a>
-          </p>
+          </div>
         </div>
       </footer>
 

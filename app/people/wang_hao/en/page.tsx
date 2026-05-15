@@ -169,13 +169,18 @@ export default function WangHaoPageEN() {
 
             <footer className="site-footer">
                 <div className="container">
-                    <p>© {new Date().getFullYear()} H!NT Lab. All rights reserved.</p>
-                    <p style={{ marginTop: '8px', fontSize: '12px', display: 'flex', alignItems: 'center', gap: '8px', justifyContent: 'center' }}>
-                        <img src="/beian.png" alt="beian" style={{ height: '16px' }} />
-                        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style={{ color: '#666' }}>
+                    <p className="footer-brand">© {new Date().getFullYear()} H!NT Lab · Shanghai University</p>
+                    <div className="footer-beian">
+                        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">
+                            <img src="/beian.png" alt="beian" />
                             沪ICP备2025152739号-2
                         </a>
-                    </p>
+                        <span className="footer-beian-divider">|</span>
+                        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702010261" target="_blank" rel="noopener noreferrer">
+                            <img src="/gongan.png" alt="gongan" />
+                            沪公网安备31010702010261号
+                        </a>
+                    </div>
                 </div>
             </footer>
 
